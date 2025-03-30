@@ -1,32 +1,32 @@
-<h1 align="center" style="color: #FF6347;">𝐓𝐇𝐄 𝐅𝐋𝐀𝐒𝐇 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄</h1>
+<h1 align="center" style="color: #FF6347;">𝐓𝐇𝐈𝐒 𝐈𝐒 𝐃𝐌𝐋 𝐌𝐃 𝐄𝐍𝐉𝐎𝐘 🤪</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS+FOR+CHOOSING+FLASH-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+FRANCE+KING;RELEASED+22.2.2024" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS+FOR+CHOOSING+DML-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+DML+MD;RELEASED+22.1.2025" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img alt="FLASH-MD" width="700" height="300" src="https://files.catbox.moe/tvo4g6.jpg">
+  <img alt="DML-MD" width="700" height="300" src="">
 </p>
 
 ---
 
 ### 🌟 **Repository Stats**:
 <p align="center">
-  <a href="https://github.com/franceking1/Flash-Md/stargazers">
+  <a href="https://github.com/MLILA17/DML-MD/stargazers">
     <img src="https://img.shields.io/github/stars/franceking1/Flash-Md?style=for-the-badge&logo=github&color=ff9800" alt="Stars" />
   </a>
-  <a href="https://github.com/franceking1/Flash-Md/network/members">
+  <a href="https://github.com/MLILA17/DML-MD/network/members">
     <img src="https://img.shields.io/github/forks/franceking1/Flash-Md?style=for-the-badge&logo=github&color=4CAF50" alt="Forks" />
   </a>
-  <a href="https://github.com/franceking1/Flash-Md/watchers">
+  <a href="https://github.com/MLILA17/DML-MD/watchers">
     <img src="https://img.shields.io/github/watchers/franceking1/Flash-Md?style=for-the-badge&logo=github&color=2196F3" alt="Watchers" />
   </a>
-  <a href="https://github.com/franceking1/Flash-Md/issues">
+  <a href="https://github.com/MLILA17/DML-MD/issues">
     <img src="https://img.shields.io/github/issues/franceking1/Flash-Md?style=for-the-badge&logo=github&color=e91e63" alt="Issues" />
   </a>
-  <a href="https://github.com/franceking1/Flash-Md/pulls">
+  <a href="https://github.com/MLILA17/DML-MD/pulls">
     <img src="https://img.shields.io/github/issues-pr/franceking1/Flash-Md?style=for-the-badge&logo=github&color=673AB7" alt="Pull Requests" />
   </a>
 </p>
@@ -79,18 +79,6 @@ Now that you have your session ID, deploy the bot to Heroku:
 If you face any issues or need assistance:
 - **[Click here for support](https://messages-snowy.vercel.app)**
 
----
 
-### 🙏 **Special Thanks:**
-
-Huge thanks to these amazing contributors:
-
-- [**Fortunatus Mokaya**](https://github.com/Fortunatusmokaya) – For adding awesome commands.
-- [**Gifted Tech**](https://github.com/mouricedevs) – For session generation support.
-- [**Suhail Ser**](https://github.com/SuhailTechInfo) – For code encryption improvements.
-- [**Luffy**](https://github.com/Luffy2ndAccount) – For providing the base code of **Flash-MD**.
-
----
-
-### 🎉 **Thank You for Choosing Flash-MD!**
+### 🎉 **Thank You for Choosing DML-MD!**
  © 2025 **All Rights Reserved**
