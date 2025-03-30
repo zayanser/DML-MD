@@ -11,10 +11,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL;
 
 module.exports = {
-    session: process.env.SESSION_ID || 'FLASH-MD-WA-BOT;;;=>',
+    session: process.env.SESSION_ID || 'DML-MD-WA-BOT;;;=>',
     PREFIXES: (process.env.PREFIX || '').split(',').map(prefix => prefix.trim()).filter(Boolean),
-    OWNER_NAME: process.env.OWNER_NAME || "France King",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254105915061",
+    OWNER_NAME: process.env.OWNER_NAME || "Dml Md",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "255785591288",
     AUTO_LIKE: process.env.STATUS_LIKE || "off",
     AUTO_READ_STATUS: process.env.AUTO_VIEW_STATUS || "on",
     AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "on",
@@ -32,7 +32,7 @@ module.exports = {
     WARN_COUNT: process.env.WARN_COUNT || '3',
     PRESENCE: process.env.PRESENCE || '',
     ADM: process.env.ANTI_DELETE || 'on',
-    TZ: process.env.TIME_ZONE || 'Africa/Nairobi',
+    TZ: process.env.TIME_ZONE || 'Africa/Tanzania',
     DP: process.env.STARTING_MESSAGE || "on",
     ANTICALL: process.env.ANTICALL || 'on',
     DATABASE_URL,
