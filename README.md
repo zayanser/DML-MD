@@ -9,7 +9,7 @@
 <p align="center">
   <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/ieqgku.mp4">
 
-  <video src="https://files.catbox.moe/ieqgku.mp4" width="600" controls>
+  <video src="https://files.catbox.moe/ieqgku.mp4" width="800" controls>
 </video>
 </p>
 
