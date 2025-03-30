@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/envb94.jpg">
+  <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/ieqgku.mp4">
 </p>
 
 ---
@@ -20,13 +20,13 @@
   <a href="https://github.com/franceking1/Flash-Md/network/members">
     <img src="https://img.shields.io/github/forks/franceking1/DML-Md?style=for-the-badge&logo=github&color=4CAF50" alt="Forks" />
   </a>
-  <a href="https://github.com/franceking1/Flash-Md/watchers">
+  <a href="https://github.com/MLILA17/DML-MD/watchers">
     <img src="https://img.shields.io/github/watchers/franceking11/DML-Md?style=for-the-badge&logo=github&color=2196F3" alt="Watchers" />
   </a>
-  <a href="https://github.com/franceking1/Flash-Md/issues">
+  <a href="https://github.com/MLILA17/DML-MD/issues">
     <img src="https://img.shields.io/github/issues/franceking1/Flash-Md?style=for-the-badge&logo=github&color=e91e63" alt="Issues" />
   </a>
-  <a href="https://github.com/franceking1/Flash-Md/pulls">
+  <a href="https://github.com/MLILA17/DML-MD/pulls">
     <img src="https://img.shields.io/github/issues-pr/franceking1/Flash-Md?style=for-the-badge&logo=github&color=673AB7" alt="Pull Requests" />
   </a>
 </p>
