@@ -15,7 +15,7 @@
 ### 🌟 **Repository Stats**:
 <p align="center">
   <a href="https://github.com/MLILA17/DML-MD/stargazers">
-    <img src="https://img.shields.io/github/stars/franceking1/Flash-Md?style=for-the-badge&logo=github&color=ff9800" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/Dml-Md?style=for-the-badge&logo=github&color=ff9800" alt="Stars" />
   </a>
   <a href="https://github.com/franceking1/Flash-Md/network/members">
     <img src="https://img.shields.io/github/forks/franceking1/DML-Md?style=for-the-badge&logo=github&color=4CAF50" alt="Forks" />
