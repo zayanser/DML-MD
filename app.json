@@ -1,9 +1,9 @@
 {
-  "name": "FLASH-MD",
-  "description": "An easy and simple WhatsApp bot developed by France King",
+  "name": "DML-MD",
+  "description": "An easy and simple WhatsApp bot developed by Dml Md",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
-  "repository": "https://github.com/franceking1/Flash-Md",
+  "repository": "https://github.com/MLILA17/DML-MD",
   "succes_url": "/",
   "stack": "heroku-24",
 
@@ -54,8 +54,8 @@
       "required": false
     },
     "TIME_ZONE": {
-      "description": "Specify your country's time zone (e.g., 'Africa/Nairobi'). This ensures that bot activities follow your local time.",
-      "value": "Africa/Nairobi",
+      "description": "Specify your country's time zone (e.g., 'Africa/Tanzania'). This ensures that bot activities follow your local time.",
+      "value": "Africa/Tanzania",
       "required": false
     },
     "ANTICALL": {
@@ -78,18 +78,18 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "Place your unique FLASH MD session ID here. This is required for the bot to function.",
+      "description": "Place your unique DML MD session ID here. This is required for the bot to function.",
       "value": "",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter the name of the bot owner. This name will be displayed when required.",
-      "value": "France King",
+      "value": "Dml Md",
       "required": false
     },
     "OWNER_NUMBER": {
-      "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
-      "value": "254751284190",
+      "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '255' for tanzania).",
+      "value": "255785591288",
       "required": false
     },
     "WARN_COUNT": {
