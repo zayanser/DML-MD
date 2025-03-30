@@ -1,8 +1,8 @@
-<h1 align="center" style="color: #FF6347;">𝐓𝐇𝐄 🅳︎🅼︎🅻︎ 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄</h1>
+<h1 align="center" style="color: #FF6347;">𝗛𝗘𝗟𝗟𝗢𝗪 𝗧𝗛𝗜𝗦 𝗜𝗦 𝗗𝗠𝗟 𝗠𝗗 𝗕𝗢𝗧 </h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS+FOR+CHOOSING+DML-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+DML+MD;RELEASED+22.2.2024" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS+FOR+CHOOSING+DML-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+DML+MD;RELEASED+22.5.2024" alt="Typing SVG" />
   </a>
 </p>
 
