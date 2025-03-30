@@ -1,4 +1,4 @@
-<h1 align="center" style="color: #FF6347;">𝐓𝐇𝐈𝐒 𝐈𝐒 𝐃𝐌𝐋 𝐌𝐃 𝐄𝐍𝐉𝐎𝐘 🤪</h1>
+<h1 align="center" style="color: #FF6347;">𝐓𝐇𝐈𝐒 𝐈𝐒 𝐃𝐌𝐋 𝐌𝐃 𝐄𝐍𝐉𝐎𝐘 </h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/t37bpc.jpg">
+  <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/dc8lcl.jpg">
 </p>
 
 ---
