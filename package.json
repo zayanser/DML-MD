@@ -1,6 +1,6 @@
 {
-    "name": "FLASH-MD",
-  "version": "2.0.0",
+    "name": "DML-MD",
+  "version": "1.0.0",
   "description": "",
   "main": "flash.js",
   "scripts": {
@@ -11,12 +11,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Flash-Md",
+    "Dml-Md",
     "whatsapp",
     "whatsapp-bot",
-    "franceking1"
+    "mlila17"
   ],
-  "author": "France King",
+  "author": "Daud Musa",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
