@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/cwag4p.jpg">
+  <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/kgd9az.jpg">
 </p>
 
 ---
