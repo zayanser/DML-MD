@@ -19,16 +19,16 @@
     <img src="https://img.shields.io/github/stars/franceking1/Flash-Md?style=for-the-badge&logo=github&color=ff9800&labelColor=333" alt="Stars" />
   </a>
   <a href="https://github.com/MLILA17/DML-MD/network/members">
-    <img src="https://img.shields.io/github/forks/franceking1/Flash-Md?style=for-the-badge&logo=github&color=4CAF50&labelColor=333" alt="Forks" />
+    <img src="https://img.shields.io/github/forks/franceking1/Dml-Md?style=for-the-badge&logo=github&color=4CAF50&labelColor=333" alt="Forks" />
   </a>
   <a href="https://github.com/MLILA17/DML-MD/watchers">
-    <img src="https://img.shields.io/github/watchers/franceking1/Flash-Md?style=for-the-badge&logo=github&color=2196F3&labelColor=333" alt="Watchers" />
+    <img src="https://img.shields.io/github/watchers/Dml-Md?style=for-the-badge&logo=github&color=2196F3&labelColor=333" alt="Watchers" />
   </a>
   <a href="https://github.com/MLILA17/DML-MD/issues">
     <img src="https://img.shields.io/github/issues/franceking1/Flash-Md?style=for-the-badge&logo=github&color=e91e63&labelColor=333" alt="Issues" />
   </a>
   <a href="https://github.com/MLILA17/DML-MD/pulls">
-    <img src="https://img.shields.io/github/issues-pr/franceking1/Flash-Md?style=for-the-badge&logo=github&color=673AB7&labelColor=333" alt="Pull Requests" />
+    <img src="https://img.shields.io/github/issues-pr/franceking1/Dml-Md?style=for-the-badge&logo=github&color=673AB7&labelColor=333" alt="Pull Requests" />
   </a>
 </p>
 
@@ -40,8 +40,8 @@
   <li>
     <strong>⭐ Star & Fork the Repository:</strong>
     <ul>
-      <li><a href="https://github.com/franceking1/Flash-Md">Star the Repo</a></li>
-      <li><a href="https://github.com/franceking1/Flash-Md/fork">Fork the Repo</a></li>
+      <li><a href="https://github.com/MLILA17/DML-MD">Star the Repo</a></li>
+      <li><a href="https://github.com/MLILA17/DML-MD/fork">Fork the Repo</a></li>
     </ul>
   </li>
   <li>
@@ -50,7 +50,7 @@
     <ul>
       <li><a href="https://the-flash-scanner.onrender.com/">QR Scanner</a></li>
       <li><a href="https://king-france.vercel.app/">Pairing Code 1</a></li>
-      <li><a href="https://the-flash-md-sessions.onrender.com/pair">Pairing Code 2</a></li>
+      <li><a href="https://github.com/MLILA17/DML-MD-sessions.onrender.com/pair">Pairing Code 2</a></li>
     </ul>
     <p><strong>⚠️ Important:</strong> Securely copy your Session ID. It's crucial for deployment.</p>
   </li>
@@ -67,7 +67,7 @@
 </p>
 
 <p align="center">
-  <a href="https://france-king.vercel.app">
+  <a href="https:/DML-MD/tree/main.vercel.app">
     <img src="https://img.shields.io/badge/Deploy%20Flash-MD%20Now-blue?style=for-the-badge&logo=heroku&labelColor=333" width="220" height="38.45"/>
   </a>
 </p>
