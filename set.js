@@ -1,16 +1,20 @@
 const fs = require('fs-extra');
 const path = require("path");
 const { Sequelize } = require('sequelize');
+const chalk = require('chalk'); // For colorful console output
 
 // Load environment variables if the .env file exists
 if (fs.existsSync('set.env')) {
     require('dotenv').config({ path: __dirname + '/set.env' });
+    console.log(chalk.green('✅ Environment variables loaded from set.env'));
+} else {
+    console.log(chalk.yellow('⚠️ set.env file not found. Using default configurations.'));
 }
 
 const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL;
 
-module.exports = {
+const config = {
     session: process.env.SESSION_ID || 'DML-MD-WA-BOT;;;=>',
     PREFIXES: (process.env.PREFIX || '').split(',').map(prefix => prefix.trim()).filter(Boolean),
     OWNER_NAME: process.env.OWNER_NAME || "Dml Md",
@@ -42,11 +46,16 @@ module.exports = {
     W_M: null, // Add this line
 };
 
+module.exports = config;
+
 // Watch for changes in this file and reload it automatically
 const fichier = require.resolve(__filename);
 fs.watchFile(fichier, () => {
     fs.unwatchFile(fichier);
-    console.log(`Updated ${__filename}`);
+    console.log(chalk.cyan(`🔄 Updated ${__filename}`));
     delete require.cache[fichier];
     require(fichier);
 });
+
+console.log(chalk.blue('⚙️ Configuration loaded:'));
+console.log(chalk.gray(JSON.stringify(config, null, 2))); // Display configuration with indentation
