@@ -16,7 +16,7 @@
     "whatsapp-bot",
     "mlila17"
   ],
-  "author": "Daud Musa",
+  "author": "Daudi Musa",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -75,6 +75,6 @@
     "youtube-yts": "^2.0.0",
     "youtubedl-core": "^4.11.7",
     "yt-search": "^2.10.4",
-    "france-king": "npm:@distube/ytdl-core@latest"
+    "Daudi-musa": "npm:@distube/ytdl-core@latest"
   }
 }
