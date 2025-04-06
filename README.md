@@ -79,7 +79,9 @@ Now that you have your session ID, deploy the bot to Heroku:
 If you face any issues or need assistance:
 - **[Click here for 
 -support](https://messages-snowy.vercel.app)**
-
+-contact me wa business https://wa.me/255622220680
+-contact me wa business https://wa.me/255785591288
+-join my WhatsApp channel for support https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C
 ---
 
 ### 🌝 **Thank You for Choosing DML-MD!**  
