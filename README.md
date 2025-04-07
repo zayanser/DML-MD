@@ -39,9 +39,9 @@
    - **[Star](https://github.com/MLILA17/DML-MD)** & **[Fork](https://github.com/MLILA17/DML-MD/forks)** this repository to your GitHub account.
 
 2. **Get Your Session ID Using**:
-   - **[QR SCANNER](https://dml-scanner.onrender.com/)**
-   - **[Pairing Code 1](https://dml-md.vercel.app/)**
-   - **[Pairing Code 2](https://dml-md-sessions.onrender.com/pair)**
+   - **[QR SCANNER](
+- **[QR SCANNER](https://dmlmd-session.onrender.com/wasiqr)**
+- **[Pairing Code 1](https://dmlmd-session.onrender.com/pair)**
 
    > **⚠️ NOTE**: Copy your Session ID – you will need it for deployment.
 
