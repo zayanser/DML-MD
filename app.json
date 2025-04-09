@@ -101,7 +101,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Daudimusa",
+      "value": "𝐃𝐌𝐋",
       "required": false
     },
     "URL": {
@@ -121,12 +121,12 @@
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
-      "value": "5",
+      "value": "3",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
       "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "no",
+      "value": "yes",
       "required": true
     },
     "PRESENCE": {
@@ -141,8 +141,8 @@
     },
     "ANTI_CALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
-      "required": false
+      "value": "no",
+      "required": true
     },
     "AUTO_BLOCK": {
       "description": "Type true if you want bot to automatically  block those who spam your dm ",
