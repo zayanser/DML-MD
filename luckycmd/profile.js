@@ -5,7 +5,7 @@ ezra({
   nomCom: "profile",
   aliases: ["pp", "who"],
   desc: "to generate profile picture",
-  categorie: "Fledi-Fun"
+  categorie: "Dml-Fun"
 }, async (dest, zk, commandeOptions) => {
   const { ms, arg, repondre, auteurMessage, nomAuteurMessage, msgRepondu, auteurMsgRepondu } = commandeOptions;
 
