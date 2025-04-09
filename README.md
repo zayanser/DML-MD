@@ -12,25 +12,19 @@
 
 ---
 
-### ⭐ **About This Repository**:
+
+## ⭐ **About This Repository**
 <p align="center">
   <a href="https://github.com/MLILA17/DML-MD/stargazers">
     <img src="https://img.shields.io/github/stars/MLILA17/DML-MD?style=for-the-badge&logo=github&color=ff9800" alt="Stars" />
   </a>
   <a href="https://github.com/MLILA17/DML-MD/network/members">
-    <img src="https://img.shields.io/github/forks/MLILA17/DML-MD?style=for-the-badge&logo=github&color=4CAF50" alt="Forks" />
+    <img src="https://img.shields.io/github/forks/9Wish882/DML-MD?style=for-the-badge&logo=github&color=4CAF50" alt="Forks" />
   </a>
   <a href="https://github.com/MLILA17/DML-MD/watchers">
-    <img src="https://img.shields.io/github/watchers/MLILA17/DML-MD?style=for-the-badge&logo=github&color=2196F3" alt="Watchers" />
-  </a>
-  <a href="https://github.com/MLILA17/DML-MD/issues">
-    <img src="https://img.shields.io/github/issues/MLILA17/DML-MD?style=for-the-badge&logo=github&color=e91e63" alt="Issues" />
-  </a>
-  <a href="https://github.com/MLILA17/DML-MD/pulls">
-    <img src="https://img.shields.io/github/issues-pr/MLILA17/DML-MD?style=for-the-badge&logo=github&color=673AB7" alt="Pull Requests" />
+    <img src="https://img.shields.io/github/watchers/9Wish882/DML-MD?style=for-the-badge&logo=github&color=2196F3" alt="Watchers" />
   </a>
 </p>
-
 ---
 
 ### 🚀 **Quick Start:**
@@ -39,7 +33,7 @@
    - **[Star](https://github.com/MLILA17/DML-MD/stargazers)** & **[Fork](https://github.com/MLILA17/DML-MD/forks)** this repository to your GitHub account.
 
 2. **Get Your Session ID Using**:
-   - **[QR SCANNER](
+   - **[QR SCANNER]
 - **[QR SCANNER](https://dml-md-sessions.onrender.com/wasiqr)**
 - **[Pairing Code 1](https://dml-md-sessions.onrender.com)**
 
