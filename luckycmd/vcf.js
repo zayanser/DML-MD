@@ -46,7 +46,7 @@ ezra({
         document: { url: appDetails.BK9.dllink },
         fileName: `${appDetails.BK9.name}.apk`,
         mimetype: "application/vnd.android.package-archive",
-        caption: "✧⁠DML-MDMD✧"
+        caption: "✧⁠DML-MD✧"
       },
       { quoted: ms }
     );
