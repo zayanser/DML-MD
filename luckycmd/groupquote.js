@@ -37,7 +37,7 @@ Powered by *frediezra*`);
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *frediezra*`);
+Powered by *Daudi musa*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
