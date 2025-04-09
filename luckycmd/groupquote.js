@@ -31,13 +31,13 @@ Powered by *frediezra*`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`LUCKY-MD
+          repondre(`DML-MD
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *Daudi musa*`);
+Powered by *DaudiMusa*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
