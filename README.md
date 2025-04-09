@@ -60,7 +60,7 @@ Now that you have your session ID, deploy the bot to Heroku:
 
 2. **✴️✴️ Deploy DML-MD Now (If you already have a Heroku account):**  
    <p align="center">
-     <a href="https://dml-md.vercel.app">
+     <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2F9Wish882%2FDML-MD&template=https%3A%2F%2Fgithub.com%2F9Wish882%2FDML-MD.git">
        <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/>
      </a>
    </p>
