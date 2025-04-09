@@ -32,7 +32,7 @@ zokou(
 
     zokou(
       {
-          nomCom: 'delcmd',
+          nomCom: 'dmlcmd',
           categorie: 'stickcmd'
       },
       async (dest, zk, commandeOptions) => {
