@@ -265,7 +265,7 @@ ezra({
       {
       caption: `\n*DML MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Daressalaam Tanzania 
+┊ *Made:* in Dar es salaam Tanzania 
 ┊ *Quality:* High
 ┊ *Powered:* by Daudimusa 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
