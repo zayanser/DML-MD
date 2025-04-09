@@ -36,7 +36,7 @@
 ### 🚀 **Quick Start:**
 
 1. **Star ⭐ & Fork** the Repo:
-   - **[Star](https://github.com/MLILA17/DML-MD)** & **[Fork](https://github.com/MLILA17/DML-MD/forks)** this repository to your GitHub account.
+   - **[Star](https://github.com/MLILA17/DML-MD/stargazers)** & **[Fork](https://github.com/MLILA17/DML-MD/forks)** this repository to your GitHub account.
 
 2. **Get Your Session ID Using**:
    - **[QR SCANNER](
