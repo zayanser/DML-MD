@@ -40,7 +40,7 @@
 
 2. **Get Your Session ID Using**:
    - **[QR SCANNER](
-- **[QR SCANNER](https://dmlmd-session.onrender.com/wasiqr)**
+- **[QR SCANNER](https://dml-md-sessions.onrender.com/wasiqr)**
 - **[Pairing Code 1](https://dml-md-sessions.onrender.com)**
 
    > **⚠️ NOTE**: Copy your Session ID – you will need it for deployment.
