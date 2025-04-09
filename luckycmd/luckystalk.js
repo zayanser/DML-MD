@@ -47,7 +47,7 @@ ezra({
       return _0x46ffbd("Invalid username.");
     }
     const _0x6778ca = _0x4bf64e.data;
-    const _0x5831e4 = "\n┌──「 *LUCKY INSTAGRAM STALK* \n▢ *🔖Name:* " + (_0x6778ca.full_name || "Unknown") + "\n▢ *🔖Username:* " + (_0x6778ca.username || 'Unknown') + "\n▢ *👥Followers:* " + (_0x6778ca.followers || "Unknown") + "\n▢ *🫂Following:* " + (_0x6778ca.following || "Unknown") + "\n▢ *📌Bio:* " + (_0x6778ca.biography || "No Bio") + "\n▢ *🔗 External Link:* " + (_0x6778ca.external_url || "No Link") + "\n▢ *🔗 Profile Link:* https://instagram.com/" + (_0x6778ca.username || "unknown") + "\n└────────────";
+    const _0x5831e4 = "\n┌──「 *DML INSTAGRAM STALK* \n▢ *🔖Name:* " + (_0x6778ca.full_name || "Unknown") + "\n▢ *🔖Username:* " + (_0x6778ca.username || 'Unknown') + "\n▢ *👥Followers:* " + (_0x6778ca.followers || "Unknown") + "\n▢ *🫂Following:* " + (_0x6778ca.following || "Unknown") + "\n▢ *📌Bio:* " + (_0x6778ca.biography || "No Bio") + "\n▢ *🔗 External Link:* " + (_0x6778ca.external_url || "No Link") + "\n▢ *🔗 Profile Link:* https://instagram.com/" + (_0x6778ca.username || "unknown") + "\n└────────────";
     await _0x46ffbd(_0x5831e4);
   } catch (_0x4acc99) {
     console.error(_0x4acc99);
