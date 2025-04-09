@@ -76,7 +76,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "✧⁠LUCKY_MD✧",
+      "value": "✧⁠DML-MD✧",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -101,7 +101,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "FrediEzra",
+      "value": "Daudimusa",
       "required": false
     },
     "URL": {
@@ -116,7 +116,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255785591288')",
-      "value": "255752593977",
+      "value": "255785591288",
       "required": false
     },
     "WARN_COUNT": {
