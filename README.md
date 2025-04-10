@@ -19,10 +19,10 @@
     <img src="https://img.shields.io/github/stars/MLILA17/DML-MD?style=for-the-badge&logo=github&color=ff9800" alt="Stars" />
   </a>
   <a href="https://github.com/MLILA17/DML-MD/network/members">
-    <img src="https://img.shields.io/github/forks/9Wish882/DML-MD?style=for-the-badge&logo=github&color=4CAF50" alt="Forks" />
+    <img src="https://img.shields.io/github/forks/MLILA17/DML-MD?style=for-the-badge&logo=github&color=4CAF50" alt="Forks" />
   </a>
   <a href="https://github.com/MLILA17/DML-MD/watchers">
-    <img src="https://img.shields.io/github/watchers/9Wish882/DML-MD?style=for-the-badge&logo=github&color=2196F3" alt="Watchers" />
+    <img src="https://img.shields.io/github/watchers/MLILA17/DML-MD?style=for-the-badge&logo=github&color=2196F3" alt="Watchers" />
   </a>
 </p>
 ---
