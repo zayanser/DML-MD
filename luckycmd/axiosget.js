@@ -91,7 +91,7 @@ ezra({
 
 ✿⁠ *_LANGUAGE:_* ${data.translation_name}
 ╭────────────────◆
-│ *_Powered by ${conf.OWNER_NAME}*
+│ *_Powered by DML ${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
     
     await zk.sendMessage(dest, {
