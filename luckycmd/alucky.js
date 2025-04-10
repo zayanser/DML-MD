@@ -61,7 +61,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https:// wa.me/255785591288',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/7irwqn.jpeg",
+        'mediaUrl': "https://files.catbox.moe/dc8lcl.jpg",
         'title': "Join Our Developer Place",
         'body': "Click to join the official DML-MD Owner Inbox!"
       }
@@ -82,7 +82,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https://www.facebook.com/profile.php?id=61553208832337',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/7irwqn.jpg",
+        'mediaUrl': "https://files.catbox.moe/dc8lcl.jpg",
         'title': "Follow Facebook Page 📄",
         'body': "Click to join the official DMLDIGITAL Facebook Page!"
       }
@@ -103,7 +103,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https://www.instagram.com/@DML_1705',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/7irwin.jpeg",
+        'mediaUrl': "https://files.catbox.moe/dc8lcl.jpg",
         'title': "Follow Instagram Page 📄",
         'body': "Click to join the official DML MD Instagram Page!"
       }
@@ -124,7 +124,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https://www.threads.net/@DML_1705',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/7iraqn.jpeg",
+        'mediaUrl': "https://files.catbox.moe/dc8lcl.jpg",
         'title': "Follow Threads Page 📄",
         'body': "Click to join the official DML MD Threads Page!"
       }
@@ -164,7 +164,7 @@ ezra({
     'text': "Hello 👋\n\nClick on the photo below to Join the OFFICIAL *DML_MD* Telegram Group",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://t.me/+u3zlb5y6OyxhOTdk',
+        'sourceUrl': 'https://t.me/Dml1705',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/vcdwmp.jpg",
         'title': "Join Telegram Group📄",
