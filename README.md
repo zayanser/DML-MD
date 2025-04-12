@@ -1,9 +1,9 @@
 # 🎉 **DML-MD - The Ultimate WhatsApp Bot!** 🔥
-
 <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=👋 HELLO! THIS IS DML-MD;🚀 YOUR BEST WHATSAPP BOT;👨‍💻 CREATED BY DAUD MUSA;🗓️ RELEASED 2025.04.01;" alt="Typing SVG" 
+  <img src="https://readme-typing-svg.demolab.com?font=Pacifico&size=45&duration=2500&pause=500&color=ff69b4&center=true&width=700&height=70&lines=👋 DML-MD BOT!;⭐ EASY TO USE!;🛠️ MADE BY DAUDI MUSA!;💬 CHAT WITH SUPPORT!" alt="Typing SVG" />
 </p>
 
+<p align="center">
 <p align="center">
   <img alt="DML-MD" width="700" height="400" src="https://files.catbox.moe/kgd9az.jpg">
 </p>
