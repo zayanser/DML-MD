@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=👋 HELLO! THIS IS DML-MD;🚀 YOUR BEST WHATSAPP BOT;👨‍💻 CREATED BY DAUD MUSA;🗓️ RELEASED 2025.04.01;" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=👋 HELLO! THIS IS DML-MD;🚀 YOUR BEST WHATSAPP BOT;👨‍💻 CREATED BY DAUD MUSA;🗓️ RELEASED 2025.04.01;" alt="<img src="https://readme-typing-svg.demolab.com?font=Audiowide&size=30&duration=3500&pause=800&color=7CFC00&center=true&width=900&height=70&lines=KARIBU+DML-MD+BOT;WHATSAPP+BOT+YA+KISASA;IMEUNDWA+NA+DAUDI+MUSA;SUPPORT+24%2F7+KUPITIA+WHATSAPP" alt="Typing SVG" />" />
   </a>
 </p>
 
