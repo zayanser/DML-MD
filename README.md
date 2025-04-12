@@ -1,9 +1,7 @@
-# 🎉 **DML-MD - The Ultimate WhatsApp Bot!** 🔥
+# 🎉 **DML-MD - Welcome!** 🔥
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=👋 HELLO! THIS IS DML-MD;🚀 YOUR BEST WHATSAPP BOT;👨‍💻 CREATED BY DAUD MUSA;🗓️ RELEASED 2025.04.01;" alt="<img src="https://readme-typing-svg.demolab.com?font=Audiowide&size=30&duration=3500&pause=800&color=7CFC00&center=true&width=900&height=70&lines=KARIBU+DML-MD+BOT;WHATSAPP+BOT+YA+KISASA;IMEUNDWA+NA+DAUDI+MUSA;SUPPORT+24%2F7+KUPITIA+WHATSAPP"
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Audiowide&size=30&duration=3500&pause=800&color=7CFC00&center=true&width=900&height=70&lines=WELCOME+TO+DML-MD+BOT;THE+MODERN+WHATSAPP+BOT;CREATED+BY+DAUDI+MUSA;24%2F7+SUPPORT+VIA+WHATSAPP" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -28,25 +26,25 @@
 
 ---
 
-## 🚀 **Getting Started - Quick Setup**
+## 🚀 **Quick Start - Easy Setup**
 
-Follow these simple steps to get DML-MD up and running!
+Follow these simple steps to get DML-MD running!
 
-### **Step 1: <img src="https://img.icons8.com/material-outlined/24/000000/star--v1.png"/> Star & <img src="https://img.icons8.com/material-outlined/24/000000/code-fork.png"/> Fork the Repository**
+### **Step 1: <img src="https://img.icons8.com/material-outlined/24/000000/star--v1.png"/> Star & <img src="https://img.icons8.com/material-outlined/24/000000/code-fork.png"/> Fork This Repository**
 
 - ⭐ **[Star](https://github.com/MLILA17/DML-MD/stargazers)** this project to show your appreciation!
-- 🍴 **[Fork](https://github.com/MLILA17/DML-MD/forks)** it to your GitHub account to begin customization.
+- 🍴 **[Fork](https://github.com/MLILA17/DML-MD/forks)** it to your GitHub account to start customizing.
 
 ---
 
-### **Step 2: 🔑 Obtain Your Session ID**
+### **Step 2: 🔑 Get Your Session ID**
 
-Choose one of the following methods to retrieve your unique **Session ID** for deployment:
+Choose one of the following methods to retrieve your unique **Session ID** for setup:
 
 - 🌐 **[QR Code Scanner](https://dml-md-sessions.onrender.com/wasiqr)**
 - 🔗 **[Pairing Code Method](https://dml-md-sessions.onrender.com)**
 
-> **⚠️ Important:** Ensure you copy the Session ID accurately – it's crucial for the next step!
+> **⚠️ Important:** Make sure you copy the Session ID accurately – it's crucial for the next step!
 
 ---
 
@@ -60,26 +58,39 @@ Deploy DML-MD to Heroku with ease!
 
 **Don't have one yet?**
 
-[![Create a Heroku Account](https://img.shields.io/badge/Create%20Account%20Now-blue?style=for-the-badge&logo=heroku)](https://signup.heroku.com)
+[![Create a Heroku Account Now](https://img.shields.io/badge/Create%20Account%20Now-blue?style=for-the-badge&logo=heroku)](https://signup.heroku.com)
 
 ---
 
-## 🌟 **Key Features**
+## ✨ **Key Features**
 
-Here's a glimpse of what DML-MD offers:
+<div style="display: flex; flex-wrap: wrap; gap: 15px;">
+  <div style="background-color: #f8f8f8; border-radius: 8px; padding: 15px; flex: 1 0 300px;">
+    <h3 style="margin-top: 0; color: #28a745;"><span style="font-size: 1.5em;">🚀</span> Blazing Fast</h3>
+    <p style="margin-bottom: 0; color: #666;">Optimized for quick and efficient responses.<br> <span style="background-color: #e9ecef; color: #007bff; padding: 2px 5px; border-radius: 5px; font-weight: bold;">SPEED Excellent</span></p>
+  </div>
 
-| Feature             | Description                                      | Status                                     |
-|----------------------|--------------------------------------------------|--------------------------------------------|
-| 🚀 Blazing Fast     | Optimized for quick and efficient responses.     | <img src="https://img.shields.io/badge/Speed-Excellent-brightgreen" alt="Speed: Excellent"> |
-| 🔒 Enhanced Security | End-to-end encryption for secure communication. | <img src="https://img.shields.io/badge/Security-High-brightgreen" alt="Security: High">   |
-| ⚙️ Rich Functionality | Explore over **600+** diverse and powerful commands! | <img src="https://img.shields.io/badge/Commands-600+-blueviolet" alt="Commands: 600+"> |
-| 🌐 24/7 Reliability | Always online and ready to serve you.            | <img src="https://img.shields.io/badge/Uptime-99.9%25-brightgreen" alt="Uptime: 99.9%"> |
+  <div style="background-color: #f8f8f8; border-radius: 8px; padding: 15px; flex: 1 0 300px;">
+    <h3 style="margin-top: 0; color: #007bff;"><span style="font-size: 1.5em;">🔒</span> Enhanced Security</h3>
+    <p style="margin-bottom: 0; color: #666;">End-to-end encryption for secure communication.<br> <span style="background-color: #e9ecef; color: #dc3545; padding: 2px 5px; border-radius: 5px; font-weight: bold;">ENCRYPTION Strong</span></p>
+  </div>
+
+  <div style="background-color: #f8f8f8; border-radius: 8px; padding: 15px; flex: 1 0 300px;">
+    <h3 style="margin-top: 0; color: #ffc107;"><span style="font-size: 1.5em;">⚙️</span> Rich Functionality</h3>
+    <p style="margin-bottom: 0; color: #666;">Explore over <span style="font-weight: bold;">600+</span> diverse and powerful commands!<br> <span style="background-color: #e9ecef; color: #6f42c1; padding: 2px 5px; border-radius: 5px; font-weight: bold;">COMMANDS Many</span></p>
+  </div>
+
+  <div style="background-color: #f8f8f8; border-radius: 8px; padding: 15px; flex: 1 0 300px;">
+    <h3 style="margin-top: 0; color: #17a2b8;"><span style="font-size: 1.5em;">🌐</span> 24/7 Reliability</h3>
+    <p style="margin-bottom: 0; color: #666;">Always online and ready to serve you.<br> <span style="background-color: #e9ecef; color: #28a745; padding: 2px 5px; border-radius: 5px; font-weight: bold;">UPTIME 99.9%</span></p>
+  </div>
+</div>
 
 ---
 
 ## ⚠️ **Important Notes**
 
-- **Modification and redistribution of this script are strictly prohibited.**
+- **Modifying or redistributing this script is strictly prohibited.**
 - **No support will be provided for any modified versions of this bot.**
 
 ---
