@@ -187,7 +187,7 @@ ezra({
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*Wait Dml Md is getting your pair code 🍼✅...*";
+    const replyText = "*Wait DML MD is getting your pair code 🍼✅...*";
     await repondre(replyText);
 
     // Prepare the API request
@@ -204,7 +204,7 @@ ezra({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "Dml-MD PAIR CODE",
+            title: "DML-MD PAIR CODE",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: conf.URL, 
