@@ -52,29 +52,35 @@ Get DML-MD now:
 
 ---
 
-## ✨ **What's Great About DML-MD!** 😎
+## ✨ **Awesome Features!** 😎
 
-See the cool stuff:
-
-<div style="display: flex; flex-wrap: wrap; gap: 15px;">
-  <div style="background-color: #e0f7fa; border-radius: 8px; padding: 15px; flex: 1 0 300px;">
-    <h3 style="margin-top: 0; color: #00bcd4;"><span style="font-size: 1.5em;">⚡</span> **Fast!** 💨</h3>
-    <p style="margin-bottom: 0; color: #546e7a;">Replies quick!<br> <span style="background-color: #b2ebf2; color: #00897b; padding: 2px 5px; border-radius: 5px; font-weight: bold;">Quick!</span></p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <div style="background-color: #a7ffeb; color: #004d40; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">⚡</span><br><b>Fast Replies</b>
   </div>
-
-  <div style="background-color: #fbe9e7; border-radius: 8px; padding: 15px; flex: 1 0 300px;">
-    <h3 style="margin-top: 0; color: #ff7043;"><span style="font-size: 1.5em;">🛡️</span> **Safe!** 🔒</h3>
-    <p style="margin-bottom: 0; color: #546e7a;">Your chats are safe.<br> <span style="background-color: #ffccbc; color: #d84315; padding: 2px 5px; border-radius: 5px; font-weight: bold;">Secure!</span></p>
+  <div style="background-color: #c8e6c9; color: #1b5e20; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">🛡️</span><br><b>Safe Chats</b>
   </div>
-
-  <div style="background-color: #ede7f6; border-radius: 8px; padding: 15px; flex: 1 0 300px;">
-    <h3 style="margin-top: 0; color: #673ab7;"><span style="font-size: 1.5em;">🎉</span> **Lots of Fun!** 🎁</h3>
-    <p style="margin-bottom: 0; color: #546e7a;">Many things to do!<br> <span style="background-color: #d1c4e9; color: #311b92; padding: 2px 5px; border-radius: 5px; font-weight: bold;">Fun!</span></p>
+  <div style="background-color: #ffcc80; color: #bf360c; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">🎉</span><br><b>Many Features</b>
   </div>
-
-  <div style="background-color: #e8f5e9; border-radius: 8px; padding: 15px; flex: 1 0 300px;">
-    <h3 style="margin-top: 0; color: #388e3c;"><span style="font-size: 1.5em;">🌐</span> **Always On!** 🕰️</h3>
-    <p style="margin-bottom: 0; color: #546e7a;">Ready anytime.<br> <span style="background-color: #c8e6c9; color: #1b5e20; padding: 2px 5px; border-radius: 5px; font-weight: bold;">Online!</span></p>
+  <div style="background-color: #b3e5fc; color: #0d47a1; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">🌐</span><br><b>Always Online</b>
+  </div>
+  <div style="background-color: #f48fb1; color: #880e4f; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">🤖</span><br><b>AI Chat</b>
+  </div>
+  <div style="background-color: #dcedc8; color: #33691e; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">🖼️</span><br><b>Sticker Maker</b>
+  </div>
+  <div style="background-color: #ffe0b2; color: #e65100; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">🎶</span><br><b>Music Downloader</b>
+  </div>
+  <div style="background-color: #c5e1a5; color: #1b5e20; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">🎮</span><br><b>Game Modules</b>
+  </div>
+  <div style="background-color: #ffab91; color: #b71c1c; border-radius: 5px; padding: 10px; text-align: center; flex: 1 0 150px;">
+    <span style="font-size: 1.5em;">🛡️</span><br><b>Admin Tools</b>
   </div>
 </div>
 
