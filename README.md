@@ -80,20 +80,31 @@ Play interactive games like quizzes, riddles, trivia, and more—right inside Wh
 </p>
 
 ---
+---
 
-## 🚀 **3-Step Deployment**
+## 🚀 **How to Deploy in 3 Simple Steps**
 
 <div align="center">
 
-### 1️⃣ **Fork & Star**
-[![Fork](https://img.shields.io/github/forks/MLILA17/DML-MD?label=FORK&style=social&logo=git&logoColor=white)](https://github.com/MLILA17/DML-MD/fork)  
-[![Star](https://img.shields.io/github/stars/MLILA17/DML-MD?label=STAR&style=social&logo=github)](https://github.com/MLILA17/DML-MD)  
+### 🔹 Step 1: Fork & Star This Repo
+Help support the project by clicking the buttons below. Fork it to your GitHub and give it a star!
 
-### 2️⃣ **Get Session ID**
-[![QR Scanner](https://img.shields.io/badge/SCAN_QR-FF6347?style=for-the-badge&logo=qr-code&logoColor=white&labelColor=1BAFBA)](https://davincs-id.onrender.com/wasiqr)  
-[![Pair Code](https://img.shields.io/badge/GET_PAIR_CODE-1BAFBA?style=for-the-badge&logo=connectdevelop&logoColor=white&labelColor=FF6347)](https://davincs-id.onrender.com/pair)  
+[![Fork](https://img.shields.io/github/forks/MLILA17/DML-MD?label=Fork&style=for-the-badge&logo=git)](https://github.com/MLILA17/DML-MD/fork)
+[![Star](https://img.shields.io/github/stars/MLILA17/DML-MD?label=Star&style=for-the-badge&logo=github)](https://github.com/MLILA17/DML-MD)
 
-### 3️⃣ **Deploy to Heroku**
+---
+
+### 🔹 Step 2: Generate Session ID
+You need a session to connect your bot. Choose your preferred method:
+
+[![Scan QR Code](https://img.shields.io/badge/SCAN_QR-FF6347?style=for-the-badge&logo=qr-code&logoColor=white)](https://davincs-id.onrender.com/wasiqr)  
+[![Pair Device](https://img.shields.io/badge/GET_PAIR_CODE-1BAFBA?style=for-the-badge&logo=connectdevelop&logoColor=white)](https://davincs-id.onrender.com/pair)
+
+---
+
+### 🔹 Step 3: Deploy with One Click
+Easily deploy to Heroku with the button below:
+
 [![Deploy](https://img.shields.io/badge/DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/MLILA17/DML-MD)
 
 </div>
