@@ -121,5 +121,3 @@ Play interactive games like quizzes, riddles, trivia, and more—right inside Wh
 - REDISTRIBUTION STRICTLY PROHIBITED 
 + OFFICIAL SUPPORT ONLY FOR ORIGINAL VERSION
 ! VIOLATORS WILL BE BLACKLISTED
-
-@@
