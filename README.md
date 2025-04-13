@@ -1,4 +1,3 @@
-
 <h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); animation: glow 2s infinite alternate;">🌟 WELCOME TO DML-MD 🌟</h1>
 <h3 align="center" style="color: #1BAFBA; font-weight: bold;">Powerful WhatsApp Bot for Tanzania</h3>
 
@@ -87,12 +86,12 @@ Play interactive games like quizzes, riddles, trivia, and more—right inside Wh
 <div align="center">
 
 ### 1️⃣ **Fork & Star**
-[![Fork](https://img.shields.io/github/forks/MLILA17/DML-MD?label=FORK&style=social&logo=git&logoColor=white)](https://github.com/MLILA17/DML-MD/fork)
-[![Star](https://img.shields.io/github/stars/MLILA17/DML-MD?label=STAR&style=social&logo=github)](https://github.com/MLILA17/DML-MD)
+[![Fork](https://img.shields.io/github/forks/MLILA17/DML-MD?label=FORK&style=social&logo=git&logoColor=white)](https://github.com/MLILA17/DML-MD/fork)  
+[![Star](https://img.shields.io/github/stars/MLILA17/DML-MD?label=STAR&style=social&logo=github)](https://github.com/MLILA17/DML-MD)  
 
 ### 2️⃣ **Get Session ID**
-[![QR Scanner](https://img.shields.io/badge/SCAN_QR-FF6347?style=for-the-badge&logo=qr-code&logoColor=white&labelColor=1BAFBA)](https://davincs-id.onrender.com/wasiqr)
-[![Pair Code](https://img.shields.io/badge/GET_PAIR_CODE-1BAFBA?style=for-the-badge&logo=connectdevelop&logoColor=white&labelColor=FF6347)](https://davincs-id.onrender.com/pair)
+[![QR Scanner](https://img.shields.io/badge/SCAN_QR-FF6347?style=for-the-badge&logo=qr-code&logoColor=white&labelColor=1BAFBA)](https://davincs-id.onrender.com/wasiqr)  
+[![Pair Code](https://img.shields.io/badge/GET_PAIR_CODE-1BAFBA?style=for-the-badge&logo=connectdevelop&logoColor=white&labelColor=FF6347)](https://davincs-id.onrender.com/pair)  
 
 ### 3️⃣ **Deploy to Heroku**
 [![Deploy](https://img.shields.io/badge/DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/MLILA17/DML-MD)
