@@ -1,3 +1,4 @@
+
 <h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); animation: glow 2s infinite alternate;">🌟 WELCOME TO DML-MD 🌟</h1>
 <h3 align="center" style="color: #1BAFBA; font-weight: bold;">Powerful WhatsApp Bot for Tanzania</h3>
 
@@ -30,44 +31,44 @@
 
 ---
 
-## ✨ **Highlighted Capabilities**
+## ✨ **Highlighted Capabilities (Click to Expand)**
 
-<p align="center">
-  <a href="#ai-chatbot">
+<details>
+  <summary>Show All Capabilities</summary>
+
+  <p align="center">
     <img src="https://img.shields.io/badge/AI_CHATBOT-FF6347?style=for-the-badge&logo=openai&logoColor=white">
-  </a>
-  <a href="#sticker-creator">
     <img src="https://img.shields.io/badge/STICKER_CREATOR-1BAFBA?style=for-the-badge&logo=stickermule&logoColor=white">
-  </a>
-  <a href="#media-downloader">
     <img src="https://img.shields.io/badge/MEDIA_DOWNLOADER-9400D3?style=for-the-badge&logo=youtube&logoColor=white">
-  </a>
-  <a href="#group-tools">
     <img src="https://img.shields.io/badge/GROUP_TOOLS-00FF00?style=for-the-badge&logo=whatsapp&logoColor=white">
-  </a>
-  <a href="#games">
     <img src="https://img.shields.io/badge/GAMES-FF0000?style=for-the-badge&logo=steam&logoColor=white">
-  </a>
-</p>
+  </p>
+
+</details>
 
 ---
 
-## 🧩 Features Breakdown
+## 🧩 **Feature Breakdown (Click to Expand)**
 
-### 🔸 AI Chatbot
+<details>
+  <summary>Click to View Details</summary>
+
+### 🔸 AI Chatbot  
 Interact with smart, AI-generated responses—get instant info or just chat like a friend.
 
-### 🔸 Sticker Creator
+### 🔸 Sticker Creator  
 Turn images or short clips into fun static and animated WhatsApp stickers.
 
-### 🔸 Media Downloader
+### 🔸 Media Downloader  
 Download videos, audio, and more from YouTube, Facebook, Instagram, and TikTok.
 
-### 🔸 Group Tools
+### 🔸 Group Tools  
 Auto-welcome, anti-link protection, promote/demote members, and manage chats with ease.
 
-### 🔸 Games
+### 🔸 Games  
 Play interactive games like quizzes, riddles, trivia, and more—right inside WhatsApp!
+
+</details>
 
 ---
 
