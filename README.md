@@ -1,4 +1,5 @@
-h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); animation: glow 2s infinite alternate;">🌟 WELCOME TO DML-MD 🌟</h1>
+
+<h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); animation: glow 2s infinite alternate;">🌟 WELCOME TO DML-MD 🌟</h1>
 <h3 align="center" style="color: #1BAFBA; font-weight: bold;">Powerful WhatsApp Bot for Tanzania</h3>
 
 <p align="center">
@@ -9,44 +10,75 @@ h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3
 
 ---
 
-<details>
-<summary><strong>🔥 Why Choose DML-MD?</strong></summary>
+## 🔥 **Why Choose DML-MD?**
 
 | Feature | Description |
-|--------|-------------|
-| ⚡ **Super Responsive** | Lightning-fast replies for better user experience. |
-| 🔐 **Fully Encrypted** | End-to-end chat protection. |
-| ⚙️ **Custom Commands** | 600+ flexible commands. |
-| ♾️ **24/7 Uptime** | Always available, no downtime. |
+|---------|-------------|
+| ⚡ **Super Responsive** | Lightning-fast replies to enhance your chat experience. |
+| 🔐 **Fully Encrypted** | Your conversations stay private with secure encryption. |
+| ⚙️ **Customizable Commands** | 600+ commands designed for maximum functionality. |
+| ♾️ **Always Active** | 24/7 uptime to keep your bot live and running. |
+
+---
+
+## 🧠 **Core Functionalities**
+
+- Smart AI Chatbot  
+- Fun Game Modules  
+- Sticker Converter  
+- Media Downloader  
+- Group Admin Tools
+
+---
+
+## ✨ **Highlighted Capabilities (Click to Expand)**
+
+<details>
+  <summary>Show All Capabilities</summary>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/AI_CHATBOT-FF6347?style=for-the-badge&logo=openai&logoColor=white">
+    <img src="https://img.shields.io/badge/STICKER_CREATOR-1BAFBA?style=for-the-badge&logo=stickermule&logoColor=white">
+    <img src="https://img.shields.io/badge/MEDIA_DOWNLOADER-9400D3?style=for-the-badge&logo=youtube&logoColor=white">
+    <img src="https://img.shields.io/badge/GROUP_TOOLS-00FF00?style=for-the-badge&logo=whatsapp&logoColor=white">
+    <img src="https://img.shields.io/badge/GAMES-FF0000?style=for-the-badge&logo=steam&logoColor=white">
+  </p>
 
 </details>
 
 ---
 
-<details>
-<summary><strong>🧠 Core Functionalities</strong></summary>
+## 🧩 **Feature Breakdown (Click to Expand)**
 
-- **AI Chatbot** – Smart replies using AI.
-- **Sticker Creator** – Turn images/videos into stickers.
-- **Media Downloader** – Download from YouTube, IG, FB, etc.
-- **Group Tools** – Manage members, settings & anti-link.
-- **Games** – Fun quizzes, riddles, and math challenges.
+<details>
+  <summary>Click to View Details</summary>
+
+### 🔸 AI Chatbot  
+Interact with smart, AI-generated responses—get instant info or just chat like a friend.
+
+### 🔸 Sticker Creator  
+Turn images or short clips into fun static and animated WhatsApp stickers.
+
+### 🔸 Media Downloader  
+Download videos, audio, and more from YouTube, Facebook, Instagram, and TikTok.
+
+### 🔸 Group Tools  
+Auto-welcome, anti-link protection, promote/demote members, and manage chats with ease.
+
+### 🔸 Games  
+Play interactive games like quizzes, riddles, trivia, and more—right inside WhatsApp!
 
 </details>
 
 ---
 
-<details>
-<summary><strong>📊 GitHub Stats</strong></summary>
-
+## 📊 **GitHub Stats**
 <p align="center">
   <a href="https://github.com/MLILA17/DML-MD">
     <img src="https://github-readme-stats.vercel.app/api?username=MLILA17&show_icons=true&theme=radical&include_all_commits=true" alt="GitHub Stats" width="400"/>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=MLILA17&theme=dark&fire=FF6347&currStreakNum=1BAFBA" alt="Streak Stats" width="400"/>
   </a>
 </p>
-
-</details>
 
 ---
 
@@ -66,21 +98,6 @@ h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3
 [![Deploy](https://img.shields.io/badge/DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/MLILA17/DML-MD)
 
 </div>
-
----
-
-<details>
-<summary><strong>✨ Highlighted Capabilities</strong></summary>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI_CHATBOT-FF6347?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/STICKER_CREATOR-1BAFBA?style=for-the-badge&logo=stickermule&logoColor=white">
-  <img src="https://img.shields.io/badge/MEDIA_DOWNLOADER-9400D3?style=for-the-badge&logo=youtube&logoColor=white">
-  <img src="https://img.shields.io/badge/GROUP_TOOLS-00FF00?style=for-the-badge&logo=whatsapp&logoColor=white">
-  <img src="https://img.shields.io/badge/GAMES-FF0000?style=for-the-badge&logo=steam&logoColor=white">
-</p>
-
-</details>
 
 ---
 
@@ -104,3 +121,5 @@ h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3
 - REDISTRIBUTION STRICTLY PROHIBITED 
 + OFFICIAL SUPPORT ONLY FOR ORIGINAL VERSION
 ! VIOLATORS WILL BE BLACKLISTED
+
+@@
