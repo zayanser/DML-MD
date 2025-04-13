@@ -1,4 +1,3 @@
-
 <h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); animation: glow 2s infinite alternate;">🌟 WELCOME TO DML-MD 🌟</h1>
 <h3 align="center" style="color: #1BAFBA; font-weight: bold;">Powerful WhatsApp Bot for Tanzania</h3>
 
@@ -23,22 +22,52 @@
 
 ## 🧠 **Core Functionalities**
 
-Here are the main features and what they do:
+- Smart AI Chatbot  
+- Fun Game Modules  
+- Sticker Converter  
+- Media Downloader  
+- Group Admin Tools
 
-- **AI Chatbot**  
-  Responds to user messages intelligently using AI-based responses, perfect for smart conversations.
+---
 
-- **Sticker Creator**  
-  Converts any image or short video into high-quality stickers—static or animated.
+## ✨ **Highlighted Capabilities**
 
-- **Media Downloader**  
-  Download videos, audio, and images from platforms like YouTube, Facebook, Instagram, and more.
+<p align="center">
+  <a href="#ai-chatbot">
+    <img src="https://img.shields.io/badge/AI_CHATBOT-FF6347?style=for-the-badge&logo=openai&logoColor=white">
+  </a>
+  <a href="#sticker-creator">
+    <img src="https://img.shields.io/badge/STICKER_CREATOR-1BAFBA?style=for-the-badge&logo=stickermule&logoColor=white">
+  </a>
+  <a href="#media-downloader">
+    <img src="https://img.shields.io/badge/MEDIA_DOWNLOADER-9400D3?style=for-the-badge&logo=youtube&logoColor=white">
+  </a>
+  <a href="#group-tools">
+    <img src="https://img.shields.io/badge/GROUP_TOOLS-00FF00?style=for-the-badge&logo=whatsapp&logoColor=white">
+  </a>
+  <a href="#games">
+    <img src="https://img.shields.io/badge/GAMES-FF0000?style=for-the-badge&logo=steam&logoColor=white">
+  </a>
+</p>
 
-- **Group Control Tools**  
-  Manage group settings: promote, demote, kick, welcome messages, anti-link protection, and more.
+---
 
-- **Game Modules**  
-  Play fun games like quizzes, riddles, trivia, and math battles right inside WhatsApp.
+## 🧩 Features Breakdown
+
+### 🔸 AI Chatbot
+Interact with smart, AI-generated responses—get instant info or just chat like a friend.
+
+### 🔸 Sticker Creator
+Turn images or short clips into fun static and animated WhatsApp stickers.
+
+### 🔸 Media Downloader
+Download videos, audio, and more from YouTube, Facebook, Instagram, and TikTok.
+
+### 🔸 Group Tools
+Auto-welcome, anti-link protection, promote/demote members, and manage chats with ease.
+
+### 🔸 Games
+Play interactive games like quizzes, riddles, trivia, and more—right inside WhatsApp!
 
 ---
 
@@ -68,18 +97,6 @@ Here are the main features and what they do:
 [![Deploy](https://img.shields.io/badge/DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/MLILA17/DML-MD)
 
 </div>
-
----
-
-## ✨ **Highlighted Capabilities**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI_CHATBOT-FF6347?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/STICKER_CREATOR-1BAFBA?style=for-the-badge&logo=stickermule&logoColor=white">
-  <img src="https://img.shields.io/badge/MEDIA_DOWNLOADER-9400D3?style=for-the-badge&logo=youtube&logoColor=white">
-  <img src="https://img.shields.io/badge/GROUP_TOOLS-00FF00?style=for-the-badge&logo=whatsapp&logoColor=white">
-  <img src="https://img.shields.io/badge/GAMES-FF0000?style=for-the-badge&logo=steam&logoColor=white">
-</p>
 
 ---
 
