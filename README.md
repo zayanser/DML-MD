@@ -84,7 +84,6 @@ Play interactive games like quizzes, riddles, trivia, and more—right inside Wh
 </p>
 
 ---
----
 
 ## 🚀 **How to Deploy in 3 Simple Steps**
 
