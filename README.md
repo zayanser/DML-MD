@@ -1,16 +1,14 @@
----
-
 <h1 align="center" style="color: #FF6347; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); animation: glow 2s infinite alternate;">🌟 WELCOME TO DML-MD 🌟</h1>
 <h3 align="center" style="color: #1BAFBA; font-weight: bold;">Powerful WhatsApp Bot for Tanzania</h3>
-
-<p align="center">
-  <img src="https://files.catbox.moe/vcdwmp.jpg" alt="DML-MD Logo" width="250"/>
-</p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=40&duration=3000&pause=500&color=FF6347&center=true&width=900&height=100&lines=HELLO+WORLD!+👋;MEET+DML-MD+🤖;ADVANCED+WHATSAPP+BOT+EXPERIENCE+⚡;MADE+WITH+PASSION+BY+DML+💻;OFFICIALLY+TANZANIAN+BOT+🎉" alt="Typing Animation" />
   </a>
+</p>
+
+<p align="center">
+  <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/kgd9az.jpg">
 </p>
 
 ---
@@ -130,16 +128,6 @@ Easily deploy to Heroku with the button below:
 ---
 
 <h3 align="center" style="color: #FF6347; animation: pulse 1.5s infinite;">⚡ OFFICIAL RELEASE v3.0 ⚡</h3>
-
----
-
-## ☎️ Support & Feedback
-
-- WhatsApp: [Group](https://chat.whatsapp.com/FunyTxSwaKI7E5Q4z8YGbS) | [Channel](https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C)  
-- Email: [daudymusa1705@gmail.com](mailto:daudymusa1705@gmail.com)  
-- Issues: Tafadhali tumia [GitHub Issues](https://github.com/MLILA17/DML-MD/issues)
-
----
 
 ## ⚠️ **Important Notice**
 ```diff
