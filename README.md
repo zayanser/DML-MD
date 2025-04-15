@@ -2,9 +2,7 @@
 <h3 align="center" style="color: #1BAFBA; font-weight: bold;">Powerful WhatsApp Bot for Tanzania</h3>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=40&duration=3000&pause=500&color=FF6347&center=true&width=900&height=100&lines=HELLO+WORLD!+👋;MEET+DML-MD+🤖;ADVANCED+WHATSAPP+BOT+EXPERIENCE+⚡;MADE+WITH+PASSION+BY+DML+💻;OFFICIALLY+TANZANIAN+BOT+🎉" alt="Typing Animation" />
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=FF6347&center=true&width=900&height=100&lines=HELLO+WORLD!+👋;MEET+DML-MD+🤖;ADVANCED+WHATSAPP+BOT+EXPERIENCE+⚡;MADE+WITH+PASSION+BY+DML+💻;OFFICIALLY+TANZANIAN+BOT+🎉" alt="Typing Animation" />
 </p>
 
 <p align="center">
