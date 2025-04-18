@@ -298,7 +298,7 @@ ezra({ nomCom: "transformer", categorie: "Logo", reaction: "🤖" }, async (dest
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-a-transformer-text-effect-online-1035.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by FREDI' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by DML' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
