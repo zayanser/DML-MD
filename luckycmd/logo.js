@@ -242,7 +242,7 @@ var lien="https://en.ephoto360.com/boom-text-comic-style-text-effect-675.html";
          
 
 repondre("  processing ...")
-         await zk.sendMessage(dest,{image:{url:img.image},caption:"\t *Logo by LUCKY MD*"})
+         await zk.sendMessage(dest,{image:{url:img.image},caption:"\t *Logo by DML MD*"})
          
         // await zk.sendMessage(dest,{image:{url:lienImage},caption:"\t *Logo by Lucky-Md*"})
          
@@ -385,7 +385,7 @@ ezra({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest, 
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-light-glow-sliced-text-effect-online-1068.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by 𝗵𝗮𝗻𝘀' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by dml' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
@@ -510,7 +510,7 @@ ezra({ nomCom: "gif×1", categorie: "Logo", reaction: "😋" }, async (dest, zk,
     const lien = `https://api.caliph.biz.id/api/kaneki?nama=${encodeURIComponent(text)}&apikey=caliphkey`;
     const img = await mumaker.sendFile(m.chat, lien, 'logo.png', '✅ Result', m);
     repondre("Processing...");
-    await zk.sendMessage(dest, { image: { url: img }, caption: "*Logo by Lucky-Md*" }, { quoted: ms });
+    await zk.sendMessage(dest, { image: { url: img }, caption: "*Logo by Dml-Md*" }, { quoted: ms });
   } catch (e) {
     repondre(e);
   }
