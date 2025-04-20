@@ -31,7 +31,7 @@ ezra({ nomCom: "tagall", categorie: 'Group', reaction: "📯" }, async (dest, zk
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        🌟 *DML-MD*TAGGED 🌟
+        🌟 *𝗗𝗠𝗟-𝗠𝗗*𝗧𝗔𝗚𝗚𝗘𝗗 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -343,7 +343,7 @@ ezra({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) =
 
     let mess = {
       image: { url: ppgroup },
-      caption:  `*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
+      caption:  `*━━━━『𝗚𝗥𝗢𝗨𝗣 𝗜𝗡𝗙𝗢』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
     }
 
 
