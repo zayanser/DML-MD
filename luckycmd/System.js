@@ -192,7 +192,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Lucky owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or Dml owner 🤦*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -235,7 +235,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Lucky owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or Dml owner 🤦*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -403,7 +403,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Lucky owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or Dml owner 🤦*");
   }
 
   // Ensure Heroku app name and API key are set
@@ -423,7 +423,7 @@ ezra({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/Fred1e/LUCKY_MD/tarball/main",
+            url: "https://github.com/MLILA17/DML-MD/tarball/main",
           },
         },
         {
@@ -435,7 +435,7 @@ ezra({
       );
 
       // Notify the user about the update and redeployment
-      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of LUCKY-MD.*");
+      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of DML-MD.*");
       console.log("Build details:", response.data);
     } catch (error) {
       // Handle any errors during the redeployment process
