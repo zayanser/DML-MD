@@ -2,7 +2,7 @@ const { ezra } = require("../fredi/ezra");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../luckydatabase/sudo")
 const conf = require("../set");
 
-ezra({ nomCom: "owner", categorie: "davincsmd-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "owner", categorie: "dml-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -51,7 +51,7 @@ ezra({ nomCom: "owner", categorie: "davincsmd-devs", reaction: "🚜" }, async (
   }
 });
 
-ezra({ nomCom: "dev", categorie: "dmlmd-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "dev", categorie: "dml-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
@@ -91,7 +91,7 @@ else {
 }
 });
 
-ezra({ nomCom: "support", categorie: "dmlmd-devs" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "support", categorie: "dml-devs" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
