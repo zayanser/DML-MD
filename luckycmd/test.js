@@ -3,13 +3,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { ezra } = require("../fredi/ezra");
 const { conf } = require('../set')
 ezra(
-    { nomCom: "luckymd", reaction: "👊", nomFichier: __filename },
+    { nomCom: "Dmlmd", reaction: "👊", nomFichier: __filename },
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
-            "Hello I'm *✧⁠LDML_MD✧* \n\n " +
+            "Hello I'm *✧⁠DML_MD✧* \n\n " +
             "I'm a Whatsapp Bot Multi-Device";
-        let d = " Made By *Fredie Sir*";
+        let d = " Made By *Dml Sir*";
         let varmess = z + d;
         var img = "https://files.catbox.moe/t37bpc.jpg";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
