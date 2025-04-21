@@ -9,69 +9,6 @@
   <img alt="DML-MD" width="700" height="300" src="https://files.catbox.moe/kgd9az.jpg">
 </p>
 
----
-
-## 🔥 **Why Choose DML-MD?**
-
-| Feature | Description |
-|---------|-------------|
-| ⚡ **Super Responsive** | Lightning-fast replies to enhance your chat experience. |
-| 🔐 **Fully Encrypted** | Your conversations stay private with secure encryption. |
-| ⚙️ **Customizable Commands** | 600+ commands designed for maximum functionality. |
-| ♾️ **Always Active** | 24/7 uptime to keep your bot live and running. |
-
----
-
-## 🧠 **Core Functionalities**
-
-- Smart AI Chatbot  
-- Fun Game Modules  
-- Sticker Converter  
-- Media Downloader  
-- Group Admin Tools
-
----
-
-## ✨ **Highlighted Capabilities (Click to Expand)**
-
-<details>
-  <summary>Show All Capabilities</summary>
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/AI_CHATBOT-FF6347?style=for-the-badge&logo=openai&logoColor=white">
-    <img src="https://img.shields.io/badge/STICKER_CREATOR-1BAFBA?style=for-the-badge&logo=stickermule&logoColor=white">
-    <img src="https://img.shields.io/badge/MEDIA_DOWNLOADER-9400D3?style=for-the-badge&logo=youtube&logoColor=white">
-    <img src="https://img.shields.io/badge/GROUP_TOOLS-00FF00?style=for-the-badge&logo=whatsapp&logoColor=white">
-    <img src="https://img.shields.io/badge/GAMES-FF0000?style=for-the-badge&logo=steam&logoColor=white">
-  </p>
-
-</details>
-
----
-
-## 🧩 **Feature Breakdown (Click to Expand)**
-
-<details>
-  <summary>Click to View Details</summary>
-
-### 🔸 AI Chatbot  
-Interact with smart, AI-generated responses—get instant info or just chat like a friend.
-
-### 🔸 Sticker Creator  
-Turn images or short clips into fun static and animated WhatsApp stickers.
-
-### 🔸 Media Downloader  
-Download videos, audio, and more from YouTube, Facebook, Instagram, and TikTok.
-
-### 🔸 Group Tools  
-Auto-welcome, anti-link protection, promote/demote members, and manage chats with ease.
-
-### 🔸 Games  
-Play interactive games like quizzes, riddles, trivia, and more—right inside WhatsApp!
-
-</details>
-
----
 
 ## 📊 **GitHub Stats**
 <p align="center">
