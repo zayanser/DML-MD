@@ -37,7 +37,7 @@
     },
     "AUTO_BIO": {
       "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
       "AUTO_SAVE_CONTACTS":
@@ -98,7 +98,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "FrediEzra",
+      "value": "Dml",
       "required": false
     },
     "URL": {
@@ -123,8 +123,8 @@
     },
     "STARTING_BOT_MESSAGE": {
       "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "yes",
-      "required": false
+      "value": "no",
+      "required": true
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 for online, 2 for typing, 3 for recording, or leave blank for real state",
@@ -133,13 +133,13 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTI_CALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
       "value": "no",
-      "required": true
+      "required": false
     },
     "AUTO_BLOCK": {
       "description": "Type true if you want bot to automatically  block those who spam your dm ",
