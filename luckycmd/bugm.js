@@ -69,7 +69,7 @@ let menuMsg = `
 ┊ DML_MD
 ╰──────────────────••
 
-> ©Davincs#tech projects
+> ©Dml#tech projects
 
  `;
 
