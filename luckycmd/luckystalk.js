@@ -4,7 +4,7 @@ const {
 const axios = require("axios");
 ezra({
   'nomCom': "tiktokstalk",
-  'reaction': '🔍',
+  'reaction': '🚀',
   'categorie': 'Search'
 }, async (_0x1e47b1, _0x297e3a, _0x39a877) => {
   const {
@@ -82,7 +82,7 @@ ezra({
 });
 ezra({
   'nomCom': "gitstalk",
-  'reaction': '🔎',
+  'reaction': '🚀',
   'categorie': "Search"
 }, async (_0x541ff5, _0x4ea3ae, _0x162c2d) => {
   const {
@@ -108,7 +108,7 @@ ezra({
 });
 ezra({
   'nomCom': "twitterstalk",
-  'reaction': '🔎',
+  'reaction': '🚀',
   'categorie': 'Search'
 }, async (_0x3b28b1, _0x54d1a5, _0x16ffb5) => {
   const {
@@ -134,7 +134,7 @@ ezra({
 });
 ezra({
   'nomCom': "facebookstalk",
-  'reaction': '🚗',
+  'reaction': '🚀',
   'categorie': 'Search'
 }, async (_0x270238, _0x2b2fbb, _0x3a1961) => {
   const {
