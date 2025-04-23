@@ -34,7 +34,7 @@ ezra({
     const isAnimated = stickerSet.is_animated || stickerSet.is_video;
     const stickerType = isAnimated ? "animated sticker" : "not animated sticker";
 
-    const message = `Lucky-stickers-dl\n\n*Name:* ${stickerSet.name}\n*Type:* ${stickerType}\n*Length:* ${stickerSet.stickers.length}\n\nDownloading...`;
+    const message = `Dml-stickers-dl\n\n*Name:* ${stickerSet.name}\n*Type:* ${stickerType}\n*Length:* ${stickerSet.stickers.length}\n\nDownloading...`;
     await reply(message);
 
     for (const sticker of stickerSet.stickers) {
