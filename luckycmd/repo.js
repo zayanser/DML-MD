@@ -39,7 +39,7 @@ const fetchGitHubStats = async () => {
 ezra({
     nomCom: "repo",
     aliases: ["script", "cs"],
-    reaction: '🍼',
+    reaction: '🚀',
     nomFichier: __filename
 }, async (command, reply, context) => {
     const { repondre, auteurMessage, nomAuteurMessage } = context;
