@@ -34,9 +34,11 @@ Help support the project by clicking the buttons below. Fork it to your GitHub a
 ### 🔹 Step 2: Generate Session ID
 You need a session to connect your bot. Choose your preferred method:
 
-[![Scan QR Code](https://img.shields.io/badge/SCAN_QR-FF6347?style=for-the-badge&logo=qr-code&logoColor=white)](https://dml-md-sessions.onrender.com/wasiqr)  
-[![Pair Device](https://img.shields.io/badge/GET_PAIR_CODE-1BAFBA?style=for-the-badge&logo=connectdevelop&logoColor=white)](https://dml0-md-session.onrender.com)
+[![Scan QR Code](https://img.shields.io/badge/SCAN_QR-FF6347?style=for-the-badge&logo=qr-code&logoColor=white)](https://dml-md-sessions.onrender.com/wasiqr) 
 
+[![Pair 1 Device](https://img.shields.io/badge/GET_PAIR_CODE-1BAFBA?style=for-the-badge&logo=connectdevelop&logoColor=white)](https://dml-md-sessions.onrender.com/)
+
+[![Pair 2 Device](https://img.shields.io/badge/GET_PAIR_CODE-1BAFBA?style=for-the-badge&logo=connectdevelop&logoColor=white)](https://dml0-md-session.onrender.com)
 ---
 
 ### 🔹 Step 3: Deploy with One Click
