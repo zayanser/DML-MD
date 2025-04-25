@@ -173,7 +173,7 @@ ${timewisher(time)}
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
                                     sourceUrl:
-                                        "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C",
+                                        "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
                                     mediaType: 1,
                                     renderLargerAbhinail: true
                                 }
@@ -975,7 +975,7 @@ ezra(
                 status: "INQUIRY",
                 surface: "CATALOG",
                 message: `${conf.BOT}`,
-                orderTitle: " TROLLY BUG ",
+                orderTitle: " DML BUG ",
                 sellerJid: "263785028126@s.whatsapp.net",
                 token: "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
             }
