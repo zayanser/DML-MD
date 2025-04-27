@@ -6,7 +6,7 @@ const fs = require("fs");
 ezra({
   nomCom: "fullpp",
   aliases: ["updatepp", "ppfull"],
-  reaction: '🍂',
+  reaction: '🚀',
   categorie: "new"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, msgRepondu, auteurMessage } = commandeOptions;
