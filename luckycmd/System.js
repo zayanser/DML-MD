@@ -28,7 +28,7 @@ async function loading(dest, zk) {
     "🟥🟥🟦🟦🟦🟦🟥🟥꧁60%꧂",
     "🟥🟥🟥🟥🟦🟦🟦🟦꧁80%꧂",
     "🟦🟦🟥🟥🟥🟥🟦🟦꧁100%꧂",
-    "*𝕷𝕺𝕬𝕯𝕴𝕹𝕲 ɬɧąŋƙ ყơų🤦*"
+    "*𝕷𝕺𝕬𝕯𝕴𝕹𝕲 ɬɧąŋƙ ყơų😁*"
   ];
 
   let { key } = await zk.sendMessage(dest, { text: 'Loading Please Wait' });
@@ -43,7 +43,7 @@ ezra({
   nomCom: "test",
   aliases: ["testing"],
   categorie: "system",
-  reaction: "🍂"
+  reaction: "🚀"
 }, async (dest, zk, commandeOptions) => {
   const { ms } = commandeOptions;
 
@@ -99,7 +99,7 @@ ezra({
 ezra({
   nomCom: "alive",
   categorie: "system",
-  reaction: "🍂"
+  reaction: "🚀"
 }, async (dest, zk, commandeOptions) => {
   const { ms } = commandeOptions;
 
