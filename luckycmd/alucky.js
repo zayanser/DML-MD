@@ -8,7 +8,7 @@ const {
 } = require("../fredi/ezra");
 ezra({
   'nomCom': "wagroup",
-  'reaction': '🤨',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x3258e7, _0x4c4732, _0x13b70c) => {
@@ -29,7 +29,7 @@ ezra({
 });
 ezra({
   'nomCom': 'wachannel',
-  'reaction': '👀',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
@@ -50,7 +50,7 @@ ezra({
 });
 ezra({
   'nomCom': 'waowner',
-  'reaction': '👀',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
@@ -71,7 +71,7 @@ ezra({
 });
 ezra({
   'nomCom': 'fb-page',
-  'reaction': '👀',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
@@ -92,7 +92,7 @@ ezra({
 });
 ezra({
   'nomCom': 'insta-page',
-  'reaction': '👀',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
@@ -134,7 +134,7 @@ ezra({
 });
 ezra({
   'nomCom': 'tiktok-page',
-  'reaction': '👀',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
@@ -155,7 +155,7 @@ ezra({
 });
 ezra({
   'nomCom': 'tgroup',
-  'reaction': '👀',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
@@ -176,7 +176,7 @@ ezra({
 });
 ezra({
   'nomCom': 'ytchannel',
-  'reaction': '👀',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
@@ -197,7 +197,7 @@ ezra({
 });
 ezra({
   'nomCom': 't-help',
-  'reaction': '👀',
+  'reaction': '🚀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
