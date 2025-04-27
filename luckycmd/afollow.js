@@ -7,7 +7,7 @@ const {
 ezra({
   'nomCom': "follow",
   'aliases': ["supported", "DAUDI", "foll", "following"],
-  'reaction': '♂️',
+  'reaction': '🚀',
   'categorie': "Support-Owner"
 }, async (_0x2ce843, _0x1c44fd, _0x32de8a) => {
   const {
