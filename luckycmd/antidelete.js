@@ -1,3 +1,4 @@
+
 const { ezra } = require("../fredi/ezra");
 const fs = require('fs');
 
@@ -61,7 +62,7 @@ ezra({
       }
 
       const senderId = msg.key.participant.split('@')[0];
-      const caption = ` Anti-delete-message by DML Tech\nMessage de @${senderId}`;
+      const caption = ` Anti-delete-message by DAVINCS Tech\nMessage de @${senderId}`;
       const imageCaption = { image: { url: './media/deleted-message.jpg' }, caption, mentions: [msg.key.participant] };
 
       await zk.sendMessage(idBot, imageCaption);
