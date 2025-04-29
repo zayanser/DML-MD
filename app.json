@@ -61,7 +61,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "viewed ✅✅",
+      "value": "SEEN ✅✅",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
