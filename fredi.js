@@ -96,9 +96,9 @@ setTimeout(() => {
 
         if (deletedMessage) {
           const deletedBy = deletedMessage.key.participant || deletedMessage.key.remoteJid;
-          let notification = `*🤦DML ANTIDELETE🤦*`;
-          notification += `*Time deleted🌹:* ${new Date().toLocaleString()}`;
-          notification += `*Deleted by🌺:* @${deletedBy.split('@')[0]}`;
+          let notification = `*DML ANTIDELETE*`;
+          notification += `*Time deleted📌:* ${new Date().toLocaleString()}`;
+          notification += `*Deleted by📍:* @${deletedBy.split('@')[0]}`;
 
           if (deletedMessage.message.conversation) {
             await zk.sendMessage(remoteJid, {
