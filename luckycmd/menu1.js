@@ -45,7 +45,7 @@ ezra({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ╰─━━━━══──══━━━❂\n${readmore}
 `;
 
-    let menuMsg = `Dml Md C𝚖𝚍`;
+    let menuMsg = `DML-MD`;
     
     for (const cat in coms) {
         menuMsg += `
@@ -72,7 +72,7 @@ ezra({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) =
                 mentionedJid: [senderName],
                 externalAdReply: {
                     title: "DML MD MENU LIST",
-                    body: "Dont worry bro I have more tap to follow",
+                    body: "Perfect for personal use, businesses, and online services.",
                     thumbnailUrl: "https://files.catbox.moe/vcdwmp.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C",
                     mediaType: 1,
