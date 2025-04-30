@@ -192,7 +192,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dml owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or Dml owner 😁*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -235,7 +235,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dml owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or Dml owner 😁*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -272,7 +272,7 @@ ezra({
 ezra({
   nomCom: "shell",
   aliases: ["getcmd", "cmd"],
-  reaction: '🍂',
+  reaction: '🚀',
   categorie: "system"
 }, async (context, message, params) => {
   const { repondre: sendResponse, arg: commandArgs, superUser: Owner, auteurMessage } = params;
@@ -314,7 +314,7 @@ ezra(
     aliases: ['speed', 'latency'],
     desc: 'To check bot response time',
     categorie: 'system', // Fixed the typo here (Categorie -> categorie)
-    reaction: '🍼',
+    reaction: '🚀',
     fromMe: true, // Removed quotes to make it a boolean
   },
   async (dest, zk) => {
@@ -403,7 +403,7 @@ ezra({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dml owner 🤦*");
+    return repondre("*This command is restricted to the bot owner or Dml owner 😁*");
   }
 
   // Ensure Heroku app name and API key are set
