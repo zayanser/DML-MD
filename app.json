@@ -1,9 +1,9 @@
 {
-  "name":"Dml4",
+  "name":"DML-MD",
   "description":"An Advanced Whatsapp bot 🚀 built for fast automation, media tool, and smooth group management developed by Daudy Musa",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/vcdwmp.jpg",
-  "repository":"https://github.com/MLILA17/Dml4",
+  "repository":"https://github.com/MLILA17/DML-MD",
   "succes_url":"/",
   "stack":"heroku-24",
   "env":{
@@ -115,7 +115,7 @@
   "STARTING_BOT_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put no else put yes",
-    "required": false,
+    "required": true,
     "value": "yes"
   },
   "PRESENCE":{
