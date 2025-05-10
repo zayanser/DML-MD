@@ -1,7 +1,7 @@
-//  [CHARLESKE-VMD]                                           
+//  [DML-MD]                                           
 //  >> A superposition of elegant code states                           
 //  >> Collapsed into optimal execution                                
-//  >> Scripted by Charleske                                    
+//  >> Scripted by Dml                                    
 //  >> Version: 5.0
 
 const axios = require('axios');
@@ -10,7 +10,7 @@ const adams = require(__dirname + "/../config");
 
 async function fetchURLUrl() {
   try {
-    const response = await axios.get(adams.CHARLESKE_MD);
+    const response = await axios.get(adams.DML_MD);
     const $ = cheerio.load(response.data);
 
     const targetElement = $('a:contains("URL")');
