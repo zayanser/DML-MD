@@ -1,9 +1,9 @@
 {
   "name":"DML-MD",
-  "description":"An Advanced Whatsapp bot 🚀 built for fast automation, media tool, and smooth group management developed by Daudy Musa",
+  "description":"Best whatsapp bot💥 developed by DML",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/vcdwmp.jpg",
-  "repository":"https://github.com/MLILA17/DML-MD",
+  "logo":"https://ibb.co/q70RyBd",
+  "repository":"https://github.com/ekitale/maths-project",
   "succes_url":"/",
   "stack":"heroku-24",
   "env":{
@@ -33,7 +33,7 @@
   "AUTO_REACT":
     {
       "description":"Enter yes for your bot to auto react",
-      "value":"yes",
+      "value":"no",
       "required":false
     },
 "ANTICALL":
@@ -65,7 +65,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/vcdwmp.jpg",
+      "value":"https://ibb.co/q70RyBd",
       "required":false
        
      },
@@ -97,12 +97,12 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "DML"
+    "value": "©charles"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of tanzania '255')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":true,
     "value": ""
   },
@@ -129,9 +129,9 @@
         "required": true
   }
   },
-
-        
-  "buildpacks": [
+	
+ 
+	  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
