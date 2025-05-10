@@ -3,7 +3,7 @@
   "description":"An Advanced Whatsapp bot 🚀 built for fast automation, media tool, and smooth group management developed by Daudy Musa",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://ibb.co/q70RyBd",
-  "repository":"https://github.com/ekitale/maths-project",
+  "repository":"https://github.com/MLILA17/DML-MD",
   "succes_url":"/",
   "stack":"heroku-24",
   "env":{
@@ -97,12 +97,12 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "©charles"
+    "value": "DML"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of tanzania '255')",
     "required":true,
     "value": ""
   },
