@@ -643,9 +643,7 @@ Link: ${url}
 
 To activate or modify the mention, follow this syntax: mention link type message
 The different types are audio, video, image, and sticker.
-Example: mention https://telegra.ph/file/52e3bb0ba3868d64df3fp.jpg image Hi, my name is Dml
-
-To stop the mention, use mention stop`;
+Example: mention https://telegra.ph/file/52e3bb0ba3868d64df3fp.jpg image Hi, my name is Dml To stop the mention, use mention stop`;
 
     repondre(msg) ;
 
