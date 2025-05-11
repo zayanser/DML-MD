@@ -79,7 +79,7 @@ zokou({
         externalAdReply: {
           title: "Error Fetching Quran Passage",
           body: "Please try again later.",
-          thumbnailUrl: "https://files.catbox.moe/n6dmx3.jpg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/vcdwmp.jpg", // Replace with a suitable thumbnail URL
           sourceUrl: conf.GURL,
           mediaType: 1,
           showAdAttribution: true,
