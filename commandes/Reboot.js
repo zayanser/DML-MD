@@ -20,7 +20,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("DML-MD bot Restarting be cool.Thanks for choosing dml-md⏳");
+    repondre("DML-MD bot Restarting be cool.Thanks for choosing DML-MD⏳");
 
   exec("pm2 restart all");
   
