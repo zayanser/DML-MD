@@ -13,7 +13,7 @@ zokou(
 
     try {
       if (!arg || arg.length === 0) {
-        return repondre("*Please provide a number in the format: 25475........*");
+        return repondre("*Please provide a number in the format: 25578........*");
       }
 
       await repondre("*Please wait... Generating pair code*");
