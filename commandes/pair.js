@@ -16,7 +16,7 @@ zokou(
         return repondre("*Please provide a number in the format: 25578........*");
       }
 
-      await repondre("*Please wait... Generating pair code*");
+      await repondre("*Please wait DML-MD... Generating pair code*");
 
       const encodedNumber = encodeURIComponent(arg.join(" "));
       const apiUrl = `https://dml0-md-session.onrender.com/code?number=${encodedNumber}`;
