@@ -450,7 +450,7 @@ zokou({
     const _0x9a395b = await _0x2c3517.groupRequestParticipantsUpdate(_0x43946b, [_0x5dcd51.jid], 'approve');
     console.log(_0x9a395b);
   }
-  _0x298913("All pending participants have been approved to join by popkid md.");
+  _0x298913("All pending participants have been approved to join by dml md.");
 });
 
 zokou({
@@ -480,16 +480,16 @@ zokou({
     let _0x4a6ecd = '';
     for (let _0x269fcd of _0x267c2d) {
       let _0x23a8f8 = _0x269fcd.id.split('@')[0x0];
-      let _0x5838c2 = _0x269fcd.name || _0x269fcd.notify || "[𝙹𝙰𝙼𝙴𝚂𝚃𝙴𝙲𝙷] +" + _0x23a8f8;
+      let _0x5838c2 = _0x269fcd.name || _0x269fcd.notify || "[DMLTECH] +" + _0x23a8f8;
       _0x4a6ecd += "BEGIN:VCARD\nVERSION:3.0\nFN:" + _0x5838c2 + "\nTEL;type=CELL;type=VOICE;waid=" + _0x23a8f8 + ':+' + _0x23a8f8 + "\nEND:VCARD\n";
     }
-    await _0x2e5b52("A moment, *Nexus-ai* is compiling " + _0x267c2d.length + " contacts into a vcf...");
+    await _0x2e5b52("A moment, *Dml-md* is compiling " + _0x267c2d.length + " contacts into a vcf...");
     await _0x511dab.writeFileSync("./contacts.vcf", _0x4a6ecd.trim());
     await _0xbcbdad.sendMessage(_0x1ec21c, {
       'document': _0x511dab.readFileSync("./contacts.vcf"),
       'mimetype': "text/vcard",
       'fileName': _0x38463f.subject + '.Vcf',
-      'caption': "VCF for " + _0x38463f.subject + "\nTotal Contacts: " + _0x267c2d.length + "\n*𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 Charleske-vmd *"
+      'caption': "VCF for " + _0x38463f.subject + "\nTotal Contacts: " + _0x267c2d.length + "\n*𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 DML-MD *"
     }, {
       'ephemeralExpiration': 0x15180,
       'quoted': _0x48a83b
@@ -659,7 +659,7 @@ zokou({
               _0x71952("The only actions available are `warn`, `remove`, and `delete`.");
             }
           } else {
-            _0x71952("Type `antilink-all on` to activate the antilink-all feature\nor `antilink-all off` to deactivate the antilink-all feature\nor `antilink-all action/remove` to directly remove the link without notice\nor `antilink-all action/warn` to give warnings\nor `antilink-all action/delete` to remove the link without any sanctions\n\nPlease note that by default, the antilink-all feature is set to delete.\n\n*𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 CHARLESKE-V𝙼𝙳*");
+            _0x71952("Type `antilink-all on` to activate the antilink-all feature\nor `antilink-all off` to deactivate the antilink-all feature\nor `antilink-all action/remove` to directly remove the link without notice\nor `antilink-all action/warn` to give warnings\nor `antilink-all action/delete` to remove the link without any sanctions\n\nPlease note that by default, the antilink-all feature is set to delete.\n\n*𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 DML-𝙼𝙳*");
           }
         }
       }
