@@ -106,7 +106,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr Dml σwnє");
+    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr Dml σwner");
   }
 
   // Validate user input and respond accordingly
@@ -146,7 +146,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dml owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or dml owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -513,7 +513,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dml owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or dml owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -554,7 +554,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dml owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or dml owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -636,4 +636,4 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dml owner.* 💀,,i
+    return repondre("*This command is restricted to the bot owner or dml owner.* 💀,,i
