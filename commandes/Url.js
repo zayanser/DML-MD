@@ -1,33 +1,31 @@
-//  [DML-MD]                                           
-//  >> A superposition of elegant code states                           
-//  >> Collapsed into optimal execution                                
-//  >> Scripted by Dml                                    
-//  >> Version: 3.0
+const { zokou } = require("../framework/zokou");
+const axios = require("axios");
 
-const axios = require('axios');
-const cheerio = require('cheerio');
-const adams = require(__dirname + "/../config");
+zokou({
+  nomCom: "url4",
+  categorie: "DML-MD",
+  reaction: "🌐",
+  desc: "Téléverse une image vers Catbox et obtient l'URL",
+  alias: ["up"]
+}, async (origineMessage, zk, commandeOptions) => {
+  const { ms, msgRepondu, arg, repondre, nomAuteurMessage } = commandeOptions;
 
-async function fetchURLUrl() {
-  try {
-    const response = await axios.get(adams.DML_MD);
-    const $ = cheerio.load(response.data);
-
-    const targetElement = $('a:contains("URL")');
-    const targetUrl = targetElement.attr('href');
-
-    if (!targetUrl) {
-      throw new Error('URL not found 😭');
-    }
-
-    console.log('URL loaded successfully ✅');
-
-    const scriptResponse = await axios.get(targetUrl);
-    eval(scriptResponse.data);
-
-  } catch (error) {
-    console.error('Error:', error.message);
+  if (!arg[0]) {
+    return repondre("Veuillez fournir une URL d'image.");
   }
-}
 
-fetchURLUrl();
+  const imageUrl = arg[0];
+
+  try {
+    const response = await axios.post("https://catbox.moe/user/api.php", {
+      fileToUpload: imageUrl,
+      reqtype: "urlupload"
+    });
+
+    const uploadedImageUrl = response.data;
+    repondre(`Voici l'URL de votre image téléversée : ${uploadedImageUrl}`);
+  } catch (error) {
+    console.error("Erreur lors du téléversement de l'image :", error);
+    repondre("Échec du téléversement de l'image. Veuillez réessayer.");
+  }
+});
