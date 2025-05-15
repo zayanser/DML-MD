@@ -27,7 +27,7 @@
 Help support the project by clicking the buttons below. Fork it to your GitHub and give it a star!
 
 [![Fork](https://img.shields.io/github/forks/MLILA17/DML-MD?label=Fork&style=for-the-badge&logo=git)](https://github.com/MLILA17/DML-MD/fork)
-[![Star](https://img.shields.io/github/stars/MLILA17/DML-MD?label=Star&style=for-the-badge&logo=github)](dml-bot.vercel.app)
+[![Star](https://img.shields.io/github/stars/MLILA17/DML-MD?label=Star&style=for-the-badge&logo=github)](https://github.com/MLILA17/DML-MD/stargazers)
 
 ---
 
@@ -43,7 +43,7 @@ You need a session to connect your bot. Choose your preferred method:
 ### 🔹 Step 3: Deploy with One Click
 Easily deploy to Heroku with the button below:
 
-[![Deploy](https://img.shields.io/badge/DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=dml-bot.vercel.app)
+[![Deploy](https://img.shields.io/badge/DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://dml-bot.vercel.app)
 
 </div>
 
