@@ -30,7 +30,7 @@ Help support the project by clicking the buttons below. Fork it to your GitHub a
 
 [![Fork](https://img.shields.io/github/forks/MLILA17/DML-MD?label=Fork&style=for-the-badge&logo=git)](https://github.com/MLILA17/DML-MD/fork)
 [![Star](https://img.shields.io/github/stars/MLILA17/DML-MD?label=Star&style=for-the-badge&logo=github)](https://github.com/MLILA17/DML-MD/stargazers)
-[![Watchers](https://img.shields.io/github/watchers/MLILA17/DML-MD?style=for-the-badge&logo=github&color=2196F3" alt="Watchers")
+
 
 ---
 
