@@ -15,15 +15,10 @@
     <img src="https://github-readme-stats.vercel.app/api?username=MLILA17&show_icons=true&theme=radical&include_all_commits=true" alt="GitHub Stats" width="400">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=MLILA17&theme=dark&fire=FF6347&currStreakNum=1BAFBA" alt="Streak Stats" width="400">
   
-  </a>
-
- </a>
   <a href="https://github.com/MLILA17/DML-MD/watchers">
     <img src="https://img.shields.io/github/watchers/MLILA17/DML-MD?style=for-the-badge&logo=github&color=2196F3" alt="Watchers" />
-  </a>
-
-
   
+  </a> 
 </p>
 
 ---
