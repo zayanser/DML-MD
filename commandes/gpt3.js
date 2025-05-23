@@ -1,26 +1,57 @@
-;   const { joel } = require("../framework/zokou");
-const axios = require("axios");
+const { zokou } = require('../framework/zokou');
+const traduire = require("../framework/traduction") ;
+const s = require('../set');
+const axios = require('axios');
 
-joel({ nomCom: "gpt3", reaction: "🌐", categorie: "IA" }, async (dest, zk, commandeOptions) => {
-    const { repondre, arg, ms } = commandeOptions;
+/* 
+Created By Dml tech
+Don't claim, okey 
+*/
 
-    try {
-        if (!arg || arg.length === 0) {
-            return repondre("Veuillez poser une question.");
-        }
+zokou({nomCom:"gpt4",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
-        const question = arg.join(" ");
+  const {repondre,ms,arg}=commandeOptions;
+  
+async function gpt4(q) {
+  const headers = {
+    'Content-Type': 'application/json',
+    'Referer': 'https://chatgpt4online.org/',
+    'Sec-Ch-Ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
+    'Sec-Ch-Ua-Mobile': '?0',
+    'Sec-Ch-Ua-Platform': '"Windows"',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+    'X-Wp-Nonce': '152990aad3'
+  };
 
-        const responseApi = await axios.get(`https://api.nexoracle.com/ai/chatgpt-3?apikey=33241c3a8402295fdc&prompt=${encodeURIComponent(question)}`);
+  const params = {
+    "botId": "default",
+    "customId": null,
+    "session": "N/A",
+    "chatId": "r20gbr387ua",
+    "contextId": 58,
+    "messages": [
+      {
+        "id": "0aqernpzbas7",
+        "role": "assistant",
+        "content": "Hi! How can I help you?",
+        "who": "AI: ",
+        "timestamp": 1719360952775
+      }
+    ],
+    "newMessage": q,
+    "newFileId": null,
+    "stream": false
+  };
 
-        const resultat = responseApi.data;
-        if (resultat && resultat.result) {
-            repondre(resultat.result);
-        } else {
-            repondre("Erreur lors de la génération de la réponse.");
-        }
-    } catch (error) {
-        console.error('Erreur:', error.message || 'Une erreur est survenue');
-        repondre("Oups, une erreur est survenue lors du traitement de votre demande.");
-    }
-});
+  try {
+    const response = await axios.post("https://chatgpt4online.org/wp-json/mwai-ui/v1/chats/submit", params, { headers });
+    console.log('Response:', response.data);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+gpt4('kapan kamu di update??');
+
+Feature: Chat Gpt 4
+Reason: -
