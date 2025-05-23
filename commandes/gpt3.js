@@ -53,5 +53,3 @@ async function gpt4(q) {
 
 gpt4('kapan kamu di update??');
 
-Feature: Chat Gpt 4
-Reason: -
