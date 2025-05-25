@@ -1,6 +1,6 @@
 const { ezra } = require("../fredi/ezra");
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
-const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../luckydatabase/antilien");
+const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../framework/zokou");
 const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../luckydatabase/antibot");
 const { search, download } = require("aptoide-scraper");
 const fs = require("fs-extra");
@@ -20,7 +20,7 @@ ezra({ nomCom: "getallmembers", categorie: 'Group', reaction: "📣" }, async (d
   let tag = `========================\n  
         🌟 *DML-MD GROUP MEMBERS GIDS* 🌟
 ========================\n
-> regards AllanDavincs®\n\n`;
+> regards DML-TECH®\n\n`;
 
   const emoji = ['🦴', '👀', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '😡', '🙏🏿', '⛔️', '$', '😟', '🥵', '🐅'];
   const randomEmoji = emoji[Math.floor(Math.random() * emoji.length)];
