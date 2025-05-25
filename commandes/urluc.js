@@ -1,107 +1,83 @@
-const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
-const { ezra } = require("../fredi/ezra");
-const { downloadMediaMessage } = require('@whiskeysockets/baileys');
-const fs = require("fs-extra");
-const ffmpeg = require("fluent-ffmpeg");
-const { Catbox } = require('node-catbox');
+const axios = require("axios");
+const FormData = require("form-data");
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
+const { cmd } = require("../command");
 
-const catbox = new Catbox();
+cmd({
+  'pattern': "tourl",
+  'alias': ["imgtourl", "img2url", "url"],
+  'react': '🖇',
+  'desc': "Convert an image to a URL using imgbb.",
+  'category': "utility",
+  'use': ".tourl",
+  'filename': __filename
+}, async (_0x2a615f, _0x296ebb, _0x131287, _0x46c0dd) => {
+  const { from: _0x462e92, quoted: _0x38fbf1, reply: _0x74c833, sender: _0x5931e7 } = _0x46c0dd;
+  try {
+    const _0x2fc0f4 = _0x296ebb.quoted ? _0x296ebb.quoted : _0x296ebb;
+    const _0x4dd0ec = (_0x2fc0f4.msg || _0x2fc0f4).mimetype || '';
 
-async function uploadToCatbox(Path) {
-    if (!fs.existsSync(Path)) {
-        throw new Error("File does not exist");
+    // Debugging image mime type
+    console.log("Image mime type: ", _0x4dd0ec);
+
+    if (!_0x4dd0ec || !_0x4dd0ec.startsWith("image")) {
+      throw "🌻 Please reply to an image.";
     }
 
-    try {
-        const response = await catbox.uploadFile({
-            path: Path // Provide the path to the file
-        });
+    // Download the image
+    const _0x227cf8 = await _0x2fc0f4.download();
+    const _0x18c2b8 = path.join(os.tmpdir(), "temp_image");
+    fs.writeFileSync(_0x18c2b8, _0x227cf8);
 
-        if (response) {
-            return response; // returns the uploaded file URL
-        } else {
-            throw new Error("Error retrieving the file link");
-        }
-    } catch (err) {
-        throw new Error(String(err));
-    }
-}
+    // Debugging: Check file size and existence
+    console.log("Temporary file saved at:", _0x18c2b8);
+    console.log("Image size: ", _0x227cf8.length, "bytes");
 
-async function convertToMp3(inputPath, outputPath) {
-    return new Promise((resolve, reject) => {
-        ffmpeg(inputPath)
-            .toFormat("mp3")
-            .on("error", (err) => reject(err))
-            .on("end", () => resolve(outputPath))
-            .save(outputPath);
+    // Prepare image for upload
+    const _0x1bf672 = new FormData();
+    _0x1bf672.append("image", fs.createReadStream(_0x18c2b8));
+
+    // Send image to imgbb
+    const _0x338f64 = await axios.post("https://api.imgbb.com/1/upload?key=88428f15dd40d427fa3abee2da85f1e3", _0x1bf672, {
+      'headers': {
+        ..._0x1bf672.getHeaders()
+      }
     });
-}
 
-ezra({ nomCom: "url", categorie: "General", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
-    const { msgRepondu, repondre } = commandeOptions;
+    // Debugging API response
+    console.log("API Response:", _0x338f64.data);
 
-    if (!msgRepondu) {
-        repondre('Please reply to an image, video, or audio file.');
-        return;
+    if (!_0x338f64.data || !_0x338f64.data.data || !_0x338f64.data.data.url) {
+      throw "❌ Failed to upload the file.";
     }
 
-    let mediaPath, mediaType;
+    const _0x2b12b1 = _0x338f64.data.data.url;
+    
+    // Clean up the temporary file
+    fs.unlinkSync(_0x18c2b8);
 
-    if (msgRepondu.videoMessage) {
-        const videoSize = msgRepondu.videoMessage.fileLength;
+    const _0x273817 = {
+      'mentionedJid': [_0x5931e7],
+      'forwardingScore': 0x3e7,
+      'isForwarded': true,
+      'forwardedNewsletterMessageInfo': {
+        'newsletterJid': '120363306168354073@newsletter',
+        'newsletterName': "✦DML TECH🪀✦",
+        'serverMessageId': 0x8f
+      }
+    };
 
-        if (videoSize > 50 * 1024 * 1024) {
-            repondre('The video is too long. Please send a smaller video.');
-            return;
-        }
+    // Send the URL as a reply
+    await _0x2a615f.sendMessage(_0x462e92, {
+      'text': `*Image Uploaded Successfully 📸*\nSize: ${_0x227cf8.length} Byte(s)\n*URL:* ${_0x2b12b1}\n\n> ⚖️ Uploaded via ✦DML TECH🪀✦`,
+      'contextInfo': _0x273817
+    });
 
-        mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.videoMessage);
-        mediaType = 'video';
-    } else if (msgRepondu.imageMessage) {
-        mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage);
-        mediaType = 'image';
-    } else if (msgRepondu.audioMessage) {
-        mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.audioMessage);
-        mediaType = 'audio';
-
-        const outputPath = `${mediaPath}.mp3`;
-
-        try {
-            // Convert audio to MP3 format
-            await convertToMp3(mediaPath, outputPath);
-            fs.unlinkSync(mediaPath); // Remove the original audio file
-            mediaPath = outputPath; // Update the path to the converted MP3 file
-        } catch (error) {
-            console.error("Error converting audio to MP3:", error);
-            repondre('Failed to process the audio file.');
-            return;
-        }
-    } else {
-        repondre('Unsupported media type. Reply with an image, video, or audio file.');
-        return;
-    }
-
-    try {
-        const catboxUrl = await uploadToCatbox(mediaPath);
-        fs.unlinkSync(mediaPath); // Remove the local file after uploading
-
-        // Respond with the URL based on media type
-        switch (mediaType) {
-            case 'image':
-                repondre(`Dml url: ${catboxUrl}`);
-                break;
-            case 'video':
-                repondre(`dml url: ${catboxUrl}`);
-                break;
-            case 'audio':
-                repondre(`dml url: ${catboxUrl}`);
-                break;
-            default:
-                repondre('An unknown error occurred.');
-                break;
-        }
-    } catch (error) {
-        console.error('Error while creating your URL:', error);
-        repondre('Oops, an error occurred.');
-    }
+  } catch (_0x5db687) {
+    // Handle errors and log them
+    _0x74c833("Error: " + _0x5db687);
+    console.error("Error occurred:", _0x5db687);
+  }
 });
