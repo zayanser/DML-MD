@@ -1,7 +1,7 @@
 const { ezra } = require("../fredi/ezra");
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../framework/zokou");
-const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../luckydatabase/antibot");
+const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../framework/zokou");
 const { search, download } = require("aptoide-scraper");
 const fs = require("fs-extra");
 const conf = require("../set");
