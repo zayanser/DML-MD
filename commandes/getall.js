@@ -1,4 +1,4 @@
-const { ezra } = require("../fredi/ezra");
+const { ezra } = require("../framework/zokou");
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../framework/zokou");
 const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../framework/zokou");
