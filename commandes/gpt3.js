@@ -44,7 +44,7 @@ async function gpt4(q) {
   };
 
   try {
-    const response = await axios.post("https://api.openai.com/v1/realtime/chats/submit", params, { headers });
+    const response = await axios.post("https://api.example.com/oauth2/authorize/chats/submit", params, { headers });
     console.log('Response:', response.data);
   } catch (error) {
     console.error('Error:', error);
