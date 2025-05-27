@@ -24,9 +24,9 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
 
-    let infoMsg = `🖐🏻 *Hello ${nomAuteurMessage}!* 📊
+    let infoMsg = `🖐🏻 *Hello ${nomAuteurMessage}!* 🖐🏻
 ━━━━━━━━━━━━━━━━━━━━
-🚀 *BOT NAME:* 𝗗𝗠𝗟 𝗠𝗗  
+🚀 *BOT NAME:* 𝗗𝗠𝗟-𝗠𝗗  
 ━━━━━━━━━━━━━━━━━━━━
 🌍 *SYSTEM INFO:*
 💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
@@ -56,7 +56,7 @@ ${readMore}
         menuMsg += `━━━━━━━━━━━━━━━━━━━━\n`;
     }
 
-    menuMsg += `🛡 *DML MD BOT - Developed by DAUDY* 🛡`;
+    menuMsg += `🛡 *DML-MD BOT - DEVELOPED BY DAUDY* 🛡`;
 
     let imageUrl = "https://files.catbox.moe/vcdwmp.jpg";
 
@@ -64,7 +64,7 @@ ${readMore}
         zk.sendMessage(dest, { 
             image: { url: imageUrl }, 
             caption: infoMsg + menuMsg, 
-            footer: "© DML MD" 
+            footer: "© DML-MD" 
         }, { quoted: ms });
     } catch (e) {
         console.log("🥵 Menu error: " + e);
