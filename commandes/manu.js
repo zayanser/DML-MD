@@ -32,7 +32,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 ━━━━━━━━━━━━━━━━━━━━
 ⚙️ *BOT STATUS:*
-⭕ ᴍᴏᴅᴇ: *${mode}*
+🔴 ᴍᴏᴅᴇ: *${mode}*
 💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 ⏳ ᴛɪᴍᴇ: ${temps}
 📆 ᴅᴀᴛᴇ: ${date}
@@ -49,9 +49,9 @@ ${readMore}
     let menuMsg = ``;
 
     for (const cat in coms) {
-        menuMsg += `🔹 *${cat.toUpperCase()}* 🔹\n`;
+        menuMsg += `🔰 *${cat.toUpperCase()}* 🔰\n`;
         for (const cmd of coms[cat]) {
-            menuMsg += `   🔸 ${cmd}\n`;
+            menuMsg += `   🔴 ${cmd}\n`;
         }
         menuMsg += `━━━━━━━━━━━━━━━━━━━━\n`;
     }
