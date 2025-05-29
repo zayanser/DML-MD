@@ -10,7 +10,7 @@ zokou(
     // URLs and configurations
     const fullImageUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Full image URL
     const smallThumbnailUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Small thumbnail URL
-    const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
+    const randomAudio = "https://files.catbox.moe/7nba1q.mp3"; // Voice note URL
     const sourceUrl = "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
@@ -64,7 +64,7 @@ zokou(
     // URLs and configurations
     const fullImageUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Full image URL
     const smallThumbnailUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Small thumbnail URL
-    const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
+    const randomAudio = "https://files.catbox.moe/vkzedi.mp3"; // Voice note URL
     const sourceUrl = "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
