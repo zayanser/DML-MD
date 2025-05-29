@@ -1,14 +1,107 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "test", reaction: "⚡", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-    console.log("Commande saisie !!!s");
-    let z = '*🟢DML-MD 𝒊𝒔 𝒐𝒏𝒍𝒊𝒏𝒆🟢* 🙏 \n\n ' + "𝑻𝒉𝒆 𝒃𝒐𝒕 𝒊𝒔 𝒄𝒖𝒓𝒓𝒆𝒏𝒕𝒍𝒚 𝒘𝒐𝒓𝒌𝒊𝒏𝒈 𝒐𝒏 𝒂 𝒈𝒐𝒐𝒅 𝒔𝒑𝒆𝒆𝒅😉👍";
-    let d = '                                                                           𝑯𝒆𝒂𝒍𝒕𝒉 𝒔𝒕𝒂𝒕𝒖𝒔✨';
-    let varmess = z + d;
-    var mp4 = 'https://files.catbox.moe/dc8lcl.jpg';
-    await zk.sendMessage(dest, { video: { url: mp4 }, caption: varmess });
-    //console.log("montest")
-});
-console.log("mon test");
 
+zokou(
+  { nomCom: "alive", reaction: "🦋", nomFichier: __filename },
+  async (dest, zk, commandeOptions) => {
+    console.log("Alive command triggered!");
+
+    // URLs and configurations
+    const fullImageUrl = "https://files.catbox.moe/nw8nva.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/nw8nva.jpg"; // Small thumbnail URL
+    const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"; // Channel link
+    const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
+
+    try {
+      // Send the custom message
+      await zk.sendMessage(dest, {
+        image: { url: fullImageUrl }, // Full image displayed at the top
+        caption: `💫 Always Active 🔥\n\n✨ Contact: ${contactName}\n🙏 [Visit Channel](${sourceUrl})`,
+        audio: { url: randomAudio }, // Voice note URL
+        mimetype: "audio/mpeg", // Correct MIME type for audio
+        ptt: true, // Send as a voice note
+        contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363387497418815@newsletter',
+         newsletterName: "DML-MD",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+            title: `💦 Message from: ${contactName}\n🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋`, // Your contact in WhatsApp status format
+            body: "Yoh don't disturb am active🥱 Tap here",
+            thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
+            mediaType: 1, // Indicate this is an image
+            renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
+            sourceUrl: sourceUrl, // Channel link
+            showAdAttribution: true, // Attribution for the channel
+          },
+          forwardingScore: -1, // Prevent message forwarding
+        }
+      });
+
+      console.log("Alive message sent successfully with customized layout.");
+    } catch (error) {
+      console.error("Error sending Alive message:", error.message);
+    }
+  }
+);
+
+console.log("WhatsApp bot is ready!");
+
+
+
+
+
+zokou(
+  { nomCom: "test", reaction: "🦋", nomFichier: __filename },
+  async (dest, zk, commandeOptions) => {
+    console.log("Alive command triggered!");
+
+    // URLs and configurations
+    const fullImageUrl = "https://files.catbox.moe/nw8nva.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/nw8nva.jpg"; // Small thumbnail URL
+    const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"; // Channel link
+    const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
+
+    try {
+      // Send the custom message
+      await zk.sendMessage(dest, {
+        image: { url: fullImageUrl }, // Full image displayed at the top
+        caption: `💥 Always Active 💥\n\n🎙️ Contact: ${contactName}\n🎙️ [Visit Channel](${sourceUrl})`,
+        audio: { url: randomAudio }, // Voice note URL
+        mimetype: "audio/mpeg", // Correct MIME type for audio
+        ptt: true, // Send as a voice note
+        contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363387497418815@newsletter',
+         newsletterName: "DML-MD",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+            title: `🌟 Message from: ${contactName}\n🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋`, // Your contact in WhatsApp status format
+            body: "Yoh don't disturb am active🥱 Tap here",
+            thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
+            mediaType: 1, // Indicate this is an image
+            renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
+            sourceUrl: sourceUrl, // Channel link
+            showAdAttribution: true, // Attribution for the channel
+          },
+          forwardingScore: -1, // Prevent message forwarding
+        }
+      });
+
+      console.log("Alive message sent successfully with customized layout.");
+    } catch (error) {
+      console.error("Error sending Alive message:", error.message);
+    }
+  }
+);
+
+console.log("WhatsApp bot is ready!");
