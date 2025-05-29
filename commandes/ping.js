@@ -8,7 +8,7 @@ zokou(
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/nw8nva.jpg"; // Full image URL
+    const fullImageUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Full image URL
     const smallThumbnailUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
     const sourceUrl = "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C"; // Channel link
