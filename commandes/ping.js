@@ -25,13 +25,13 @@ zokou(
         contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363387497418815@newsletter',
-         newsletterName: "DML-MD",
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "𝐷𝛭𝐿_𝛭𝐷",
          serverMessageId: 143,
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
          externalAdReply: {
-            title: `💦 Message from: ${contactName}\n🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋`, // Your contact in WhatsApp status format
+            title: `💦 Message from: ${contactName}\n🦋ɴ𝐷𝛭𝐿_𝛭𝐷🦋`, // Your contact in WhatsApp status format
             body: "Yoh don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
@@ -62,10 +62,10 @@ zokou(
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Full image URL
+    const fullImageUrl = "https://files.catbox.moe/nw8nva.jpg"; // Full image URL
     const smallThumbnailUrl = "https://files.catbox.moe/nw8nva.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -85,7 +85,7 @@ zokou(
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
          externalAdReply: {
-            title: `🌟 Message from: ${contactName}\n🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋`, // Your contact in WhatsApp status format
+            title: `🌟 Message from: ${contactName}\n🦋ɴ𝐷𝛭𝐿_𝛭𝐷🦋`, // Your contact in WhatsApp status format
             body: "Yoh don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
