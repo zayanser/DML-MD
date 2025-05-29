@@ -1,50 +1,57 @@
-const { zokou } = require("../framework/zokou");
-const fs = require('fs');
-const ai = require('unlimited-ai');
+const { zokou } = require('../framework/zokou');
+const traduire = require("../framework/traduction") ;
+const s = require('../set');
+const axios = require('axios');
 
-zokou({
-  nomCom: "chat",
-  aliases: ["ai"],
-  reaction: '🔍',
-  categorie: "search"
-}, async (context, message, params) => {
-  const { repondre, arg } = params;  // Use args for the command arguments
-  const lucky = arg.join(" ").trim(); // Assuming args is an array of command parts
+/* 
+Created By Leonard tech
+Don't claim, okey 
+*/
 
-  if (!lucky) return repondre("Please provide text.");
+zokou({nomCom:"gpt4",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
-  // Load previous conversation from store.json, if exists
-  let conversationData = [];
+  const {repondre,ms,arg}=commandeOptions;
+  
+async function gpt4(q) {
+  const headers = {
+    'Content-Type': 'application/json',
+    'Referer': 'https://chatgpt4online.org/',
+    'Sec-Ch-Ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
+    'Sec-Ch-Ua-Mobile': '?0',
+    'Sec-Ch-Ua-Platform': '"Windows"',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+    'X-Wp-Nonce': '152990aad3'
+  };
+
+  const params = {
+    "botId": "default",
+    "customId": null,
+    "session": "N/A",
+    "chatId": "r20gbr387ua",
+    "contextId": 58,
+    "messages": [
+      {
+        "id": "0aqernpzbas7",
+        "role": "assistant",
+        "content": "Hi! How can I help you?",
+        "who": "AI: ",
+        "timestamp": 1719360952775
+      }
+    ],
+    "newMessage": q,
+    "newFileId": null,
+    "stream": false
+  };
+
   try {
-      const rawData = fs.readFileSync('fredi.json', 'utf8');
-      conversationData = JSON.parse(rawData);
-  } catch (err) {
-      console.log('No previous conversation found, starting new one.');
-  }
-
-  // Define the model and the user/system message
-  const model = 'gpt-4-turbo-2024-04-09';
-  const userMessage = { role: 'user', content: lucky };  // Change 'text' to 'lucky' as it's the user input
-  const systemMessage = { role: 'system', content: 'You are an assistant in WhatsApp. You are called Dml. You respond to user commands.' };
-
-  // Add user input to the conversation data
-  conversationData.push(userMessage);
-  conversationData.push(systemMessage);
-
-  try {
-      // Get AI response from the model
-      const aiResponse = await ai.generate(model, conversationData);
-
-      // Add AI response to the conversation data
-      conversationData.push({ role: 'assistant', content: aiResponse });
-
-      // Write the updated conversation data to store.json
-      fs.writeFileSync('fredi.json', JSON.stringify(conversationData, null, 2));
-
-      // Reply to the user with AI's response
-      await repondre(aiResponse);
+    const response = await axios.post("https://chatgpt4online.org/wp-json/mwai-ui/v1/chats/submit", params, { headers });
+    console.log('Response:', response.data);
   } catch (error) {
-      console.error("Error with AI generation: ", error);
-      await repondre("Sorry, there was an error generating the response.");
+    console.error('Error:', error);
   }
-})
+}
+
+gpt4('kapan kamu di update??');
+
+Feature: Chat Gpt 4
+Reason: -
