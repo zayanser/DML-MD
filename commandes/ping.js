@@ -3,15 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou(
-  { nomCom: "alive", reaction: "🦋", nomFichier: __filename },
+  { nomCom: "alive", reaction: "🎊", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
 
     // URLs and configurations
     const fullImageUrl = "https://files.catbox.moe/nw8nva.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://files.catbox.moe/nw8nva.jpg"; // Small thumbnail URL
+    const smallThumbnailUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -25,13 +25,13 @@ zokou(
         contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363345407274799@newsletter',
-         newsletterName: "𝐷𝛭𝐿_𝛭𝐷",
+         newsletterJid: '120363387497418815@newsletter',
+         newsletterName: "ᴅᴍʟ ᴍᴅ ɪs ᴀʟɪᴠᴇ ᴇᴠᴇʀʏᴛʜɪɴɢ ᴇᴠᴇʀʏᴅᴀʏ",
          serverMessageId: 143,
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
          externalAdReply: {
-            title: `💦 Message from: ${contactName}\n🦋ɴ𝐷𝛭𝐿_𝛭𝐷🦋`, // Your contact in WhatsApp status format
+            title: `💦 Message from: ${contactName}\ᴅᴍʟ ᴍᴅ ɪs ᴀʟɪᴠᴇ ᴇᴠᴇʀʏᴛʜɪɴɢ ᴇᴠᴇʀʏᴅᴀʏ`, // Your contact in WhatsApp status format
             body: "Yoh don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
@@ -57,15 +57,15 @@ console.log("WhatsApp bot is ready!");
 
 
 zokou(
-  { nomCom: "test", reaction: "🦋", nomFichier: __filename },
+  { nomCom: "test", reaction: "😇", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/nw8nva.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://files.catbox.moe/nw8nva.jpg"; // Small thumbnail URL
+    const fullImageUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/vcdwmp.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/xktd7q.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -80,12 +80,12 @@ zokou(
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363387497418815@newsletter',
-         newsletterName: "DML-MD",
+         newsletterName: "ᴅᴍʟ ᴍᴅ ᴛᴇsᴛɪɴɢ ᴄᴏᴍᴍᴀɴᴅ",
          serverMessageId: 143,
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
          externalAdReply: {
-            title: `🌟 Message from: ${contactName}\n🦋ɴ𝐷𝛭𝐿_𝛭𝐷🦋`, // Your contact in WhatsApp status format
+            title: `🌟 Message from: ${contactName}\ᴅᴍʟ ᴍᴅ ᴛᴇsᴛɪɴɢ ᴄᴏᴍᴍᴀɴᴅ💯`, // Your contact in WhatsApp status format
             body: "Yoh don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
@@ -104,4 +104,4 @@ zokou(
   }
 );
 
-console.log("WhatsApp bot is ready!");
+console.log("WhatsApp bot is ready!")
