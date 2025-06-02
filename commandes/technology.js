@@ -35,7 +35,7 @@ zokou({
         'image': {
           'url': _0x54f9fa[_0xf62d6].url
         },
-        'caption': "ᴅᴍʟ ᴛᴇᴄʜɴᴏʟᴏɢʏ ᴡᴀᴛsᴀᴘᴘ ʙᴏᴛ ɪᴍɢ",
+        'caption': "DML TECHNOLOGY WHATSAPP BOT IMG",
         'contextInfo': {
           'externalAdReply': {
             'title': "ᴅᴍʟ ɪᴍɢ",
