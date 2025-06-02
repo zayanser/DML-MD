@@ -7,8 +7,8 @@ const conf = require(__dirname + "/../set");
 zokou({
   'nomCom': "img",
   'aliases': ["image", "images"],
-  'categorie': "timnasa",
-  'reaction': '☘️'
+  'categorie': "dml",
+  'reaction': '🎬'
 }, async (_0x2ebed9, _0x1f4ff7, _0x5ebebb) => {
   const {
     repondre: _0x15e1d9,
@@ -54,7 +54,7 @@ zokou({
 });
 zokou({
   'nomCom': "waifuto",
-  'categorie': "timnasa",
+  'categorie': "dml",
   'reaction': '💗'
 }, async (_0x376a4f, _0x5b78d8, _0x1f7067) => {
   const {
@@ -90,8 +90,8 @@ zokou({
 });
 zokou({
   'nomCom': "pic",
-  'categorie': "timnasa",
-  'reaction': '☘️'
+  'categorie': "dml",
+  'reaction': '🎬'
 }, async (_0xed2bfa, _0x2a858c, _0x1468de) => {
   const {
     repondre: _0x49e9e9,
@@ -126,7 +126,7 @@ zokou({
 });
 zokou({
   'nomCom': "pono",
-  'categorie': "timnasa",
+  'categorie': "dml",
   'reaction': '💗'
 }, async (_0x506093, _0x3a048e, _0x2c5289) => {
   const {
@@ -162,7 +162,7 @@ zokou({
 });
 zokou({
   'nomCom': "chuchu",
-  'categorie': "timnasa",
+  'categorie': "dml",
   'reaction': '💗'
 }, async (_0x7b6528, _0x36d13b, _0x513a8c) => {
   const {
