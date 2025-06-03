@@ -48,7 +48,7 @@ Easily deploy to Heroku with the button below:
 
 [![Deploy on heroku](https://img.shields.io/badge/DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://dml-bot.vercel.app/)
 
-[![Deploy on railway](https://img.shields.io/badge/DEPLOY_TO_RAILWAY-430098?style=for-the-badge&logo=railway&logoColor=white)](https://railway.com)
+[![Deploy on railway](https://img.shields.io/badge/DEPLOY_TO_RAILWAY-430098?style=for-the-badge&logo=railway&logoColor=white)](https://railway.com?referralCode=4C8QSf)
 
 </div>
 
