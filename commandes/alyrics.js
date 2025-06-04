@@ -42,7 +42,7 @@ zokou({
 
         // Format the message to send to the user
         const formattedMessage = `
-*𝐃𝐌𝐋-𝐌𝐝 𝐋𝐘𝐑𝐈𝐂𝐒 𝐈𝐍 𝐓𝐇𝐄 𝐖𝐎𝐑𝐋𝐃*
+*𝐃𝐌𝐋-𝐌𝐃 𝐋𝐘𝐑𝐈𝐂𝐒 𝐈𝐍 𝐓𝐇𝐄 𝐖𝐎𝐑𝐋𝐃*
 *Title:* ${title}
 *Artist:* ${artist}
 
