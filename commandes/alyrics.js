@@ -1,63 +1,68 @@
-const { zokou } = require('../framework/zokou');
-const lyricsFinder = require('lyrics-finder');
-const yts = require('yt-search');
+const { zokou } = require("../framework/zokou");
+const axios = require("axios");
 
 zokou({
-    nomCom: 'lyrics1',
-    aliases: ['lyric', 'mistari'],
-    reaction: '📑',
-}, async (zk, dest, context) => {
-    const { repondre, arg, ms } = context;
+  nomCom: "lyrics",
+  reaction: '🎵', // Changed reaction to match music theme
+  categorie: "Music",
+  aliases: ["lyric", "mistari"] // Added aliases
+}, async (dest, zk, commandeOptions) => {
+  const { repondre, arg, ms } = commandeOptions;
+  const songName = arg.join(" ").trim();
 
+  if (!songName) {
+    return repondre("Please provide a song name. Example: *" + s.PREFIXE + "lyrics Shape of You*");
+  }
+
+  // API endpoints (same as original)
+  const apis = [
+    `https://api.dreaded.site/api/lyrics?title=${encodeURIComponent(songName)}`,
+    `https://some-random-api.com/others/lyrics?title=${encodeURIComponent(songName)}`,
+    `https://api.davidcyriltech.my.id/lyrics?title=${encodeURIComponent(songName)}`
+  ];
+
+  let lyricsData;
+  for (const api of apis) {
     try {
-        // Check if the argument (song and artist) is provided
-        if (!arg || arg.length === 0) {
-            return repondre('Please provide a song name and artist.');
-        }
-
-        // Create a search query from the arguments
-        const searchQuery = arg.join(' ');
-
-        // Search for the song using yt-search
-        const info = await yts(searchQuery);
-        const results = info.videos;
-
-        // Check if no results were found
-        if (!results || results.length === 0) {
-            return repondre('No results found for the given song or artist.');
-        }
-
-        // Extract title and artist from the search query
-        const songDetails = searchQuery.split(' ').reverse();
-        const title = songDetails.slice(0, songDetails.length - 1).join(' ');
-        const artist = songDetails[songDetails.length - 1];
-
-        // Fetch the lyrics using lyrics-finder
-        const lyrics = await lyricsFinder(artist, title);
-
-        // Check if lyrics are found
-        if (!lyrics) {
-            return repondre(`Sorry, I couldn't find any lyrics for "${searchQuery}". Please try another song.`);
-        }
-
-        // Format the message to send to the user
-        const formattedMessage = `
-*𝐃𝐌𝐋-𝐌𝐃 𝐋𝐘𝐑𝐈𝐂𝐒 𝐈𝐍 𝐓𝐇𝐄 𝐖𝐎𝐑𝐋𝐃*
-*Title:* ${title}
-*Artist:* ${artist}
-
-${lyrics}
-        `;
-
-        // Send the response with the song's thumbnail and lyrics
-        await zk.sendMessage(dest, {
-            image: { url: results[0].thumbnail },
-            caption: formattedMessage,
-        }, { quoted: ms });
-
+      const response = await axios.get(api);
+      if (response.data?.result?.lyrics) {
+        lyricsData = response.data;
+        break;
+      }
     } catch (error) {
-        // Handle any errors that occur
-        repondre(`Error: I was unable to fetch the lyrics. Please try again later.\n\n${error.message}`);
-        console.log(error);
+      console.error(`API ${api} failed:`, error.message);
     }
+  }
+
+  if (!lyricsData?.result) {
+    return repondre("❌ Couldn't find lyrics for *" + songName + "*");
+  }
+
+  const { title, artist, thumb, lyrics } = lyricsData.result;
+  const imageUrl = thumb || "https://files.catbox.moe/aktbgo.jpg"; // Fallback image
+
+  try {
+    // Download album art
+    const imageResponse = await axios.get(imageUrl, { responseType: "arraybuffer" });
+    
+    await zk.sendMessage(dest, {
+      image: Buffer.from(imageResponse.data),
+      caption: `🎶 *${title}* - ${artist}\n\n${lyrics}\n\n*Powered by Dml-Md*`,
+      contextInfo: {
+        externalAdReply: {
+          title: "Dml-Md Lyrics Finder",
+          body: "Get any song lyrics instantly",
+          thumbnail: await (await axios.get(imageUrl, { responseType: "arraybuffer" })).data,
+          mediaType: 1,
+          mediaUrl: "",
+          sourceUrl: ""
+        }
+      }
+    }, { quoted: ms });
+
+  } catch (error) {
+    console.error("Error sending lyrics:", error);
+    // Fallback to text-only
+    repondre(`🎶 *${title}* - ${artist}\n\n${lyrics.substring(0, 2000)}...\n\n*[Truncated - image failed to load]*`);
+  }
 });
