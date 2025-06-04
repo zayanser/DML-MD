@@ -39,7 +39,7 @@ zokou({
   }
 
   const { title, artist, thumb, lyrics } = lyricsData.result;
-  const imageUrl = thumb || "https://files.catbox.moe/aktbgo.jpg"; // Fallback image
+  const imageUrl = thumb || "https://files.catbox.moe/t37bpc.jpg"; // Fallback image
 
   try {
     // Download album art
